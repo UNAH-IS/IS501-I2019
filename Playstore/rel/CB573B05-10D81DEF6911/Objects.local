@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="BDB4C40D-1102-1577-ECF4-D07B5BDF09D9" name="TBL_APLICACIONES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="CB573B05-5A6E-A60F-B1EF-10D81DEF6911" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="B6D9237B-02BE-B516-266D-039C95151D66" name="TBL_CATEGORIAS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="CB573B05-5A6E-A60F-B1EF-10D81DEF6911" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="75BA2CBC-3644-0FDC-1261-058DD7864EC5" name="TBL_DESARROLLADORES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="CB573B05-5A6E-A60F-B1EF-10D81DEF6911" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="F70E95B1-CBE2-77DC-DD36-9F3699F20A6B" name="APL_DES_FK" seqName="seg_0" containerID="BDB4C40D-1102-1577-ECF4-D07B5BDF09D9" refContainerID="75BA2CBC-3644-0FDC-1261-058DD7864EC5" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="CB573B05-5A6E-A60F-B1EF-10D81DEF6911" propertySourceId="75BA2CBC-3644-0FDC-1261-058DD7864EC5" propertyTargetId="BDB4C40D-1102-1577-ECF4-D07B5BDF09D9"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

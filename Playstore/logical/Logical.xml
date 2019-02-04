@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8B81DD64-6343-3CF9-EB72-8EFBF8917FBD" mainViewID="D9B81454-5ABE-2C37-937C-FC3F50ABA84B">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-01 23:23:36 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

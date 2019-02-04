@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="E5BB5D43-EFAA-09EE-643B-96EC59E8DFA0">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-01 23:23:37 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

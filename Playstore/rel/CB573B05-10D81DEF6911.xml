@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="CB573B05-5A6E-A60F-B1EF-10D81DEF6911" mainViewID="B22E1776-10C3-BAFC-BAB4-F423FA15EC86">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-01 23:24:47 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
