@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75BA2CBC-3644-0FDC-1261-058DD7864EC5" name="TBL_DESARROLLADORES">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-01 23:42:32 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_DESARROLLADOR" id="D8274589-9569-3CC8-F2DA-6A4779CB3D9C">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-01 23:43:21 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_DESARROLLADOR" id="C27783BE-EC3C-B5E4-3E56-CDA3A9BAD263">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-01 23:43:21 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="A36AEB6C-9881-A3C0-50AC-2856811A0C1D">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-01 23:43:21 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="AA5D3F61-B4BE-12E3-AB7A-D2F205A1B3E5">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:17:50 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEBSITE" id="1A9CB622-97C2-CF71-6756-1262C7259E19">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:17:50 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="70491B2B-429F-A0CD-3B2D-2EFADEA9FDC4">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:17:50 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="629D8D61-305E-91E3-DF95-7BEDBF626F8C" name="TBL_DESARROLLADORES_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-01 23:43:21 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8274589-9569-3CC8-F2DA-6A4779CB3D9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

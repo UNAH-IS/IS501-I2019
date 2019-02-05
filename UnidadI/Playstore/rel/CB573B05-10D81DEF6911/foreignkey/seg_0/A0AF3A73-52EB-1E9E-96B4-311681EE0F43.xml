@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A0AF3A73-52EB-1E9E-96B4-311681EE0F43" containerWithKeyObject="25CE10AA-D240-F5A7-F30A-8999FF3ECB98" localFKIndex="D435971C-FF07-C488-366A-293AB8F8EB70" name="USU_MUN_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:51:20 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<referredTableLongName>TBL_MUNICIPIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>133DB92D-80FE-91DC-4C24-F18C91362DC7</referredTableID>
+<keyObject>CBA9D612-2283-F2EF-A86B-4F4099B07AC1</keyObject>
+<referredKeyID>CBA9D612-2283-F2EF-A86B-4F4099B07AC1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_MUNICIPIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

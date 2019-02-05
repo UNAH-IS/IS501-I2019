@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F611C69E-A3EF-2300-8D0E-56E3543577AB" name="TBL_DEPARTAMENTOS">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:48:14 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_DEPARTAMENTO" id="6FB51110-2A60-26A8-F181-DDD7461A687A">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:48:54 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PAIS" id="DAB74C78-0B3F-CCF4-D09B-AD755462215E">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:49:14 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC630AAC-B464-2717-8697-5085D3D57E93" referredColumn="15A7F9A3-3268-BEEF-99A6-0A067B66D799"/>
+</associations>
+</Column>
+<Column name="NOMBRE_DEPARTAMENTO" id="0FFECACA-CB15-957B-206D-5DDDBC64EEDD">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:48:54 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="9947F3D6-3A22-A399-321A-66DC09F2DEFD">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:48:54 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="64A3AB54-FED9-0D74-1EC8-5CB6525716FF">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:48:54 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0A5B48C-61C1-5D82-5DC8-4DFE43BBE32C" name="TBL_DEPARTAMENTOS_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:49:01 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB51110-2A60-26A8-F181-DDD7461A687A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92CD3A15-CC3D-5A68-C432-EA30D2C1464B" name="DEP_PAISES_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:49:14 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAB74C78-0B3F-CCF4-D09B-AD755462215E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

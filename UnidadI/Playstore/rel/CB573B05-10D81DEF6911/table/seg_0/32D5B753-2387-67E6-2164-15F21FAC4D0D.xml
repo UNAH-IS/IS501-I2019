@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32D5B753-2387-67E6-2164-15F21FAC4D0D" name="TBL_PAISES">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:47:24 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PAIS" id="15A7F9A3-3268-BEEF-99A6-0A067B66D799">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:48:06 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PAIS" id="01FA9701-8202-3808-2000-F45B77FDBD22">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:48:06 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="483F9FE1-563F-D43E-9682-8F5E23C31B4B">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:48:06 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="2714A137-AB8A-7458-A044-24E75B54145F">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:48:06 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85B1F11E-E19C-5F7C-137B-A9BA4017DF7A" name="TBL_PAISES_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:48:06 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15A7F9A3-3268-BEEF-99A6-0A067B66D799"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

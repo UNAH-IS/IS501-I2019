@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Playstore" id="FFBBD0C2-AA7F-4F0D-F52E-9D50F05611B2" version="3.5">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-01 23:23:36 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FFBBD0C2-AA7F-4F0D-F52E-9D50F05611B2</designId>
+</OSDM_Design>

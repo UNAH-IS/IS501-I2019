@@ -1,0 +1,5 @@
+Hay que procurar que cada tabla tenga un campo o conjunto de campos que identifiquen de forma única un registro. A dicho campo o conjunto de campos se le llama llave primaria, esta no se puede repetir y no puede tener valores nulos.
+Es recomendable que la llave primaria sea un valor numerico dentro de lo posible.
+En caso de no tener una llave primaria facilmente identificable se puede crear una llave autonumerica entera. Dicha llave es conocida como llave subrogada.
+Llave unica: Es un campo que no se puede repetir pero que no necesariamente es llave primaria.
+Llave Foranea, extranjera o ajena: Es un campo que es originario de otra tabla y en dicha tabla es una llave primaria.

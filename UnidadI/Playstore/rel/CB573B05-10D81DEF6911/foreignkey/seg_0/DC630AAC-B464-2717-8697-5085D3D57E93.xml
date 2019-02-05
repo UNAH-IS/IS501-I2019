@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DC630AAC-B464-2717-8697-5085D3D57E93" containerWithKeyObject="F611C69E-A3EF-2300-8D0E-56E3543577AB" localFKIndex="92CD3A15-CC3D-5A68-C432-EA30D2C1464B" name="DEP_PAISES_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-04 23:49:14 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<referredTableLongName>TBL_PAISES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>32D5B753-2387-67E6-2164-15F21FAC4D0D</referredTableID>
+<keyObject>85B1F11E-E19C-5F7C-137B-A9BA4017DF7A</keyObject>
+<referredKeyID>85B1F11E-E19C-5F7C-137B-A9BA4017DF7A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PAIS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

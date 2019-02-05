@@ -1,0 +1,28 @@
+schoology.com
+MVM5D-2NQS9
+
+
+Tipos de usuarios:
+
+Usuarios finales
+Arquitectos de bases de datos
+Programadores
+DataBase Administrator
+
+
+
+Llave Primaria:
+    Las tablas deben tener un campo o conjunto de campos que identifique de forma unica un registro, a este campo o conjunto de campos se le llama LLAVE PRIMARIA
+    La clave subrogada o surrogate key es el identificador único de una tabla que no se deriva de los datos de la aplicación, generalmente no es visible al usuario y se suele construir a partir de una secuencia autogenerada.
+
+Llave Foranea:
+    Es un campo o conjunto campos que provienen de otra tabla para establecer una relacion.
+
+
+Cardinalidades
+Uno a Uno 1:1
+Uno a muchos, muchos a uno 1:N o N:1
+Muchos a muchos N:M
+
+Llave primaria compuesta:
+    Es cuando una llave primaria es creada a partir de multiples atributos o campos
