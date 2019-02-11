@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="005D087B-4644-B39F-5A5B-160FF9E65482" name="TBL_AUTORES">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-08 23:31:48 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="9406E279-C3E9-04FD-5BED-EDA03D8587FF">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-08 23:33:50 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAB0166F-5119-5D41-BCC9-01057CB1C4AE" referredColumn="9EFA2C54-35E7-25AC-C249-6BFF2977E9BB"/>
+</associations>
+</Column>
+<Column name="BIOGRAFIA" id="95396F42-742D-46D1-2958-E55C523C689D">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-08 23:32:44 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_PUBLICACIONES" id="05B93B5F-DBA9-3091-401D-15C14753BBB6">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-08 23:32:44 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4B8EE2D-BCEB-98A8-DC49-4C32BE8FDDDA" name="TBL_AUTORES_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-08 23:34:10 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9406E279-C3E9-04FD-5BED-EDA03D8587FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DA568ED-AAA7-AB36-4E50-17A1AC8EC55D" name="AUT_USU_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-08 23:33:50 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9406E279-C3E9-04FD-5BED-EDA03D8587FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BCFD7F8-D046-0C2F-2ED6-68CA0C5AA1F9" name="TBL_ADMINISTRADORES">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:39:18 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ADMINISTRADOR" id="C27B3E79-30A3-DDA7-C658-2DB45E6781C6">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:40:03 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="093554D6-6420-AD3A-0D9B-9CDC3640F9E5">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:40:03 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="C9A2707E-145F-003E-EDC9-C13A5F092323">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:40:03 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8BC9B70-1F76-FDC4-D6A3-6A78C225228A" name="TBL_ADMINISTRADORES_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:40:03 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C27B3E79-30A3-DDA7-C658-2DB45E6781C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

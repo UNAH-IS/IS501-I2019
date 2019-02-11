@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BF41622-375A-870B-CEDD-74559BB39567" name="TBL_PRODUCTOS">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:12:16 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PRODUCTO" id="1D4A2180-90B9-7C3A-8E85-55539215DA3F">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:13:39 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_GENERO" id="228C2B5B-4792-1BB3-F44D-1CD3EF293ECD">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-08 23:24:52 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0A4C2C3-0B4D-4388-0581-B251763D07FE" referredColumn="68F8B487-6C60-017B-8A7A-9F71628BB79F"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="DE6E7015-CB62-38C7-992B-01A21940FD09">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:13:39 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="CC40584E-A1A1-A531-CE61-CF2344CFC88D">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:13:39 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="73DB206C-9783-F0B3-D4F7-397859EE8EF3">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:13:39 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_SUBIDA" id="6905037B-B6E9-96C7-F2DA-1B620832135F">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:13:39 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARCHIVO" id="E823EEC2-2C16-0104-7C00-4FB73269D390">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:13:39 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_DESCARGAS" id="46CCFD98-816F-F61D-BF14-C6297F4E032D">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:13:39 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUNTUACION" id="394F756B-31A4-0E42-B7EF-7E3FBBCE75D1">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:13:39 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE183799-0013-9788-1FC8-1CD4D26945C2" name="TBL_PRODUCTOS_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:13:47 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D4A2180-90B9-7C3A-8E85-55539215DA3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4990DD28-25B4-18F3-2F1F-6DEAFCA6630B" name="PRO_GEN_PRO_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-08 23:24:52 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="228C2B5B-4792-1BB3-F44D-1CD3EF293ECD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B18A3CF3-CC9F-852A-C438-E259FA8AE29F" containerWithKeyObject="1BA98409-4746-4BBB-854B-158AD528E751" localFKIndex="7AC42890-3BEA-4845-E840-7F9748239FAA" name="CAN_ART_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-08 23:34:37 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<referredTableLongName>TBL_ARTISTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>22139F4C-4418-048A-0B46-9C5AB47745CD</referredTableID>
+<keyObject>3D9F9E42-14DE-F87D-7591-82945D58E174</keyObject>
+<referredKeyID>3D9F9E42-14DE-F87D-7591-82945D58E174</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_USUARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

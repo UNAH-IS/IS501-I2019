@@ -1,39 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6D9237B-02BE-B516-266D-039C95151D66" name="TBL_CATEGORIAS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22139F4C-4418-048A-0B46-9C5AB47745CD" name="TBL_ARTISTAS">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-01 23:27:05 UTC</createdTime>
+<createdTime>2019-02-08 23:29:36 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
-<ordsAlias>table_1</ordsAlias>
+<ordsAlias>table_21</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_CATEGORIA" id="8B0343A5-E615-8C77-9685-937BCC34F682">
+<Column name="CODIGO_USUARIO" id="03B949CE-65E6-0F4E-3611-BA2526E9FCB9">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-01 23:32:18 UTC</createdTime>
+<createdTime>2019-02-08 23:33:16 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="NOMBRE_CATEGORIA" id="A41912BE-A726-C326-56E9-507C78E6136A">
-<createdBy>marin</createdBy>
-<createdTime>2019-02-01 23:32:18 UTC</createdTime>
-<ownerDesignName>Playstore</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CODIGO_CATEGORIA_PADRE" id="6D1EE547-EA84-4242-BE67-419A268A44EE">
-<createdBy>marin</createdBy>
-<createdTime>2019-02-08 23:25:30 UTC</createdTime>
-<ownerDesignName>Playstore</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -41,30 +19,49 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="99F22A5F-3C71-B8BA-40BF-6B287941314F" referredColumn="8B0343A5-E615-8C77-9685-937BCC34F682"/>
+<colAssociation fkAssociation="7C8C4AC4-335E-C160-6ADD-EB45B6F2EC51" referredColumn="9EFA2C54-35E7-25AC-C249-6BFF2977E9BB"/>
 </associations>
+</Column>
+<Column name="NOMBRE_ARTISTICO" id="33E87FDA-CB85-6250-5381-E6F61997DDDF">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-08 23:31:44 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITIO_WEB" id="FDF49584-4500-B218-8DCB-1DC9CAEB251C">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-08 23:31:44 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="95726CA2-18C9-3845-78E1-5D033A93B336" name="TBL_CATEGORIAS_PK">
+<ind_PK_UK id="3D9F9E42-14DE-F87D-7591-82945D58E174" name="TBL_ARTISTAS_PK">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-01 23:32:18 UTC</createdTime>
+<createdTime>2019-02-08 23:33:40 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8B0343A5-E615-8C77-9685-937BCC34F682"/>
+<colUsage columnID="03B949CE-65E6-0F4E-3611-BA2526E9FCB9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B570717F-4AAA-E4B5-9AF1-E0CA116F8605" name="CAT_CAT_FK">
+<ind_PK_UK id="B688ADE7-1B30-3297-FEF4-6CCD97DC3660" name="ART_USU_FK">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-08 23:25:30 UTC</createdTime>
+<createdTime>2019-02-08 23:33:16 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6D1EE547-EA84-4242-BE67-419A268A44EE"/>
+<colUsage columnID="03B949CE-65E6-0F4E-3611-BA2526E9FCB9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

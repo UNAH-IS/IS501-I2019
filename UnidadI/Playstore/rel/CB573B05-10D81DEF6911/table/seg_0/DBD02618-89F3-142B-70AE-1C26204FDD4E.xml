@@ -1,26 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FE88289-E0E4-9B02-073C-7F35AC8C3A7E" name="TBL_COMENTARIOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBD02618-89F3-142B-70AE-1C26204FDD4E" name="TBL_LIBROS">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-04 23:30:05 UTC</createdTime>
+<createdTime>2019-02-07 23:46:23 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
-<ordsAlias>table_5</ordsAlias>
+<ordsAlias>table_18</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_COMENTARIO" id="F092366C-80A2-CD98-6659-ED87E592F052">
+<Column name="CODIGO_PRODUCTO" id="F9AD29FE-A701-5EE6-12AC-93A2DBA1D71E">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-04 23:32:23 UTC</createdTime>
-<ownerDesignName>Playstore</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CODIGO_USUARIO" id="97D3CA8D-FC1F-3034-E09F-929FEB75CED8">
-<createdBy>marin</createdBy>
-<createdTime>2019-02-04 23:36:38 UTC</createdTime>
+<createdTime>2019-02-07 23:47:28 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,74 +19,72 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="35423BE9-0CE3-6805-EC55-52FC8E9A0487" referredColumn="9EFA2C54-35E7-25AC-C249-6BFF2977E9BB"/>
+<colAssociation fkAssociation="8A58EFB9-77FE-ED95-0E00-840F64852E35" referredColumn="1D4A2180-90B9-7C3A-8E85-55539215DA3F"/>
 </associations>
 </Column>
-<Column name="COMENTARIO" id="38ED8B22-D633-37B3-CFEC-01A89B35A172">
+<Column name="CODIGO_USUARIO_AUTOR" id="9A4D39F3-6F86-C476-B18C-0AEF3906D26F">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-04 23:32:23 UTC</createdTime>
+<createdTime>2019-02-08 23:34:58 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F07FA096-E4B3-1BFB-D4F0-C7CCC57CA156" referredColumn="9406E279-C3E9-04FD-5BED-EDA03D8587FF"/>
+</associations>
+</Column>
+<Column name="ISBN" id="328BF1B3-B60B-01E9-47B4-236904F2DCBF">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:46:56 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="FECHA_HORA" id="0098F6CE-15FF-6950-E6E8-2BBE950B817E">
+<Column name="PAGINAS" id="491103C3-7AA3-9AC1-55E5-2FAB7B7F935A">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-04 23:32:23 UTC</createdTime>
+<createdTime>2019-02-07 23:46:56 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CODIGO_PRODUCTO" id="7A168435-1026-761E-2570-DA77B3B9D7FD">
-<createdBy>marin</createdBy>
-<createdTime>2019-02-08 23:18:13 UTC</createdTime>
-<ownerDesignName>Playstore</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="EE3B40C7-D007-479F-A6CC-C8FE5A678435" referredColumn="1D4A2180-90B9-7C3A-8E85-55539215DA3F"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5D9F615A-A05B-CB82-5DA2-66146B2E37D0" name="TBL_COMENTARIOS_PK">
+<ind_PK_UK id="5091B690-CF87-1C2A-FBDC-6C3A2E9F7258" name="TBL_LIBROS_PK">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-04 23:32:23 UTC</createdTime>
+<createdTime>2019-02-07 23:48:02 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F092366C-80A2-CD98-6659-ED87E592F052"/>
+<colUsage columnID="F9AD29FE-A701-5EE6-12AC-93A2DBA1D71E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="974F2D35-0F31-BBE8-6416-3C2A3581BCD8" name="COM_USU_FK">
+<ind_PK_UK id="BC939A71-0686-7160-9C8C-A2FCF351264B" name="LIB_PRO_FK">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-04 23:36:38 UTC</createdTime>
+<createdTime>2019-02-07 23:47:28 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="97D3CA8D-FC1F-3034-E09F-929FEB75CED8"/>
+<colUsage columnID="F9AD29FE-A701-5EE6-12AC-93A2DBA1D71E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5B114B91-AA3E-468A-0D34-490FB16DA575" name="COM_PRO_FK">
+<ind_PK_UK id="353F646E-B8C9-0B48-1D64-BDF357F65268" name="LIB_AUT_FK">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-08 23:18:13 UTC</createdTime>
+<createdTime>2019-02-08 23:34:58 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7A168435-1026-761E-2570-DA77B3B9D7FD"/>
+<colUsage columnID="9A4D39F3-6F86-C476-B18C-0AEF3906D26F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

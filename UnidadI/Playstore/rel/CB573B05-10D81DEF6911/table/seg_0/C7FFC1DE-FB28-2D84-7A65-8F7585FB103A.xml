@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6D9237B-02BE-B516-266D-039C95151D66" name="TBL_CATEGORIAS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7FFC1DE-FB28-2D84-7A65-8F7585FB103A" name="TBL_SUCURSALES">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-01 23:27:05 UTC</createdTime>
+<createdTime>2019-02-07 23:39:28 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
-<ordsAlias>table_1</ordsAlias>
+<ordsAlias>table_16</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_CATEGORIA" id="8B0343A5-E615-8C77-9685-937BCC34F682">
+<Column name="CODIGO_SUCURSAL" id="BD77F84D-603A-FA43-1612-C5FB0F8A3076">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-01 23:32:18 UTC</createdTime>
+<createdTime>2019-02-07 23:40:46 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,22 +18,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOMBRE_CATEGORIA" id="A41912BE-A726-C326-56E9-507C78E6136A">
+<Column name="NOMBRE_SUCURSAL" id="9DECBDCF-23A0-DC64-817B-CD664EED5C37">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-01 23:32:18 UTC</createdTime>
-<ownerDesignName>Playstore</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CODIGO_CATEGORIA_PADRE" id="6D1EE547-EA84-4242-BE67-419A268A44EE">
-<createdBy>marin</createdBy>
-<createdTime>2019-02-08 23:25:30 UTC</createdTime>
+<createdTime>2019-02-07 23:40:46 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ADMINISTRADOR" id="0E8321B6-9367-99CE-47AE-C6433EE7B14E">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:41:03 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -41,30 +38,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="99F22A5F-3C71-B8BA-40BF-6B287941314F" referredColumn="8B0343A5-E615-8C77-9685-937BCC34F682"/>
+<colAssociation fkAssociation="E26F7863-446F-EB3C-0341-FE2037CAC6C6" referredColumn="C27B3E79-30A3-DDA7-C658-2DB45E6781C6"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="95726CA2-18C9-3845-78E1-5D033A93B336" name="TBL_CATEGORIAS_PK">
+<ind_PK_UK id="1AFD3CE3-C597-9AD2-49DE-2BB6C846F08F" name="TBL_SUCURSALES_PK">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-01 23:32:18 UTC</createdTime>
+<createdTime>2019-02-07 23:40:50 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8B0343A5-E615-8C77-9685-937BCC34F682"/>
+<colUsage columnID="BD77F84D-603A-FA43-1612-C5FB0F8A3076"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B570717F-4AAA-E4B5-9AF1-E0CA116F8605" name="CAT_CAT_FK">
+<ind_PK_UK id="5F76665D-6FE1-18E2-F8AB-79803C1A610A" name="TBL_SUCURSALES__UN">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-08 23:25:30 UTC</createdTime>
+<createdTime>2019-02-07 23:42:02 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E8321B6-9367-99CE-47AE-C6433EE7B14E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF3253B4-0ACF-26C4-8217-93DA0BBB883A" name="SUC_ADM_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:41:03 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6D1EE547-EA84-4242-BE67-419A268A44EE"/>
+<colUsage columnID="0E8321B6-9367-99CE-47AE-C6433EE7B14E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

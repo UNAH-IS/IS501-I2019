@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64082122-1E52-EF15-F9E7-BC045AB61C64" name="TBL_LUGARES">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-05 23:21:50 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="B5A9D466-462A-586D-6C7B-66244CCE4C83">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-05 23:22:45 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_LUGAR" id="A769A098-FBF8-4BC3-E921-DEA2F329BF54">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-05 23:22:45 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="40A40551-F3C4-C6D2-94B2-96AA83EC4D72">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-05 23:22:45 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="F629F77B-5447-8741-1F1F-7AA41F71D032">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-05 23:22:45 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="66B60471-D28D-C0B8-9975-0530C43A5434">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-05 23:22:45 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="BFFB90F0-C21F-34F4-4B6D-0668F98DE9DF">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-05 23:23:14 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="085D1CE5-A346-3C51-9606-F1E1FCF209CF" referredColumn="B5A9D466-462A-586D-6C7B-66244CCE4C83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C97E2F19-586F-AE8B-6140-C2C46C3DE295" name="TBL_LUGARES_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-05 23:22:45 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5A9D466-462A-586D-6C7B-66244CCE4C83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79E27986-3E6B-680E-3C52-46745695BA7B" name="LUG_LUG_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-05 23:23:14 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFFB90F0-C21F-34F4-4B6D-0668F98DE9DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

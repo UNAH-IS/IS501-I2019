@@ -1,14 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="537AD5D0-00E3-F026-64B6-83CBCF2AE829" containerWithKeyObject="C98FBC48-6B88-5130-4992-956CFFB5BC68" localFKIndex="079CA300-057D-4EBA-1684-7385018F0285" name="CAT_X_APL_CAT_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="99F22A5F-3C71-B8BA-40BF-6B287941314F" containerWithKeyObject="B6D9237B-02BE-B516-266D-039C95151D66" localFKIndex="B570717F-4AAA-E4B5-9AF1-E0CA116F8605" name="CAT_CAT_FK">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-04 23:22:49 UTC</createdTime>
+<createdTime>2019-02-08 23:25:30 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <referredTableLongName>TBL_CATEGORIAS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>B6D9237B-02BE-B516-266D-039C95151D66</referredTableID>
 <keyObject>95726CA2-18C9-3845-78E1-5D033A93B336</keyObject>
 <referredKeyID>95726CA2-18C9-3845-78E1-5D033A93B336</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>CODIGO_CATEGORIA</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

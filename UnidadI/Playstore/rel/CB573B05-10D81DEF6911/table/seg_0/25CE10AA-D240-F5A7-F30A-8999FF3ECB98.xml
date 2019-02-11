@@ -46,6 +46,20 @@
 <colAssociation fkAssociation="A0AF3A73-52EB-1E9E-96B4-311681EE0F43" referredColumn="ED85C0F4-6857-A76F-382D-A285204FE26C"/>
 </associations>
 </Column>
+<Column name="CODIGO_LUGAR" id="1ADDA1E8-33A7-4404-2773-607B843FEA62">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-05 23:29:13 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B122F30-A9B6-84E0-BAF8-4B9B74046B2F" referredColumn="B5A9D466-462A-586D-6C7B-66244CCE4C83"/>
+</associations>
+</Column>
 <Column name="NOMBRE" id="2FE79C74-C66B-615E-79CB-60B98D818929">
 <createdBy>marin</createdBy>
 <createdTime>2019-02-04 23:34:41 UTC</createdTime>
@@ -123,6 +137,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D8DFCC44-34BA-C269-8021-7D9D7714ACE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BE58B4B-A310-97FA-78D5-A0258406A3D9" name="USU_LUG_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-05 23:29:13 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ADDA1E8-33A7-4404-2773-607B843FEA62"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

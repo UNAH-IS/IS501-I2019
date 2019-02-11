@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8CA23F3-0EE6-03CB-3A16-8D85BF82D072" containerWithKeyObject="1BA98409-4746-4BBB-854B-158AD528E751" localFKIndex="B9B25C65-2617-924F-C1AF-5E6C9E91EB69" name="CAN_PRO_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-07 23:44:48 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<referredTableLongName>TBL_PRODUCTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1BF41622-375A-870B-CEDD-74559BB39567</referredTableID>
+<keyObject>EE183799-0013-9788-1FC8-1CD4D26945C2</keyObject>
+<referredKeyID>EE183799-0013-9788-1FC8-1CD4D26945C2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PRODUCTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
