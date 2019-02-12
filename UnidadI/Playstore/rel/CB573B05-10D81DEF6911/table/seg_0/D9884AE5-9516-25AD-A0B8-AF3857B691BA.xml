@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9884AE5-9516-25AD-A0B8-AF3857B691BA" name="TBL_REQUERIMIENTOS_X_APP">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:32:34 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PRODUCTO" id="4F84C8DE-E1C3-84D7-C858-8974F3789141">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:32:55 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1902B64-2377-4BF5-04B0-23A8BC987879" referredColumn="7082C412-57B8-7AA2-4EAA-36A6BFEFEB9E"/>
+</associations>
+</Column>
+<Column name="CODIGO_REQUERIMIENTO" id="20452228-AE9C-44FD-5B78-EFD8CDFC43ED">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:33:17 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C39346E-0024-1170-A011-FE5C806F8F01" referredColumn="20FCFFC6-0894-B47E-088B-4002FD8D4B16"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E2068C6-272D-7A96-5278-CA97C524C959" name="TBL_REQUERIMIENTOS_X_APP_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:34:43 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F84C8DE-E1C3-84D7-C858-8974F3789141"/>
+<colUsage columnID="20452228-AE9C-44FD-5B78-EFD8CDFC43ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61F2213C-58E5-A670-3B4B-44038F0ABC5C" name="REQ_X_APP_APLI_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:32:55 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F84C8DE-E1C3-84D7-C858-8974F3789141"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05D7FC22-4A24-FF9B-EF3D-BF3E476F1B55" name="REQ_X_APP_REQ_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:33:17 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20452228-AE9C-44FD-5B78-EFD8CDFC43ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

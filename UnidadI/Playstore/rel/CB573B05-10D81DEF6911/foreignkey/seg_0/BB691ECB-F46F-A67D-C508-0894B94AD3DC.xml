@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BB691ECB-F46F-A67D-C508-0894B94AD3DC" containerWithKeyObject="5F268289-66BB-72D1-1679-CA7DB5695708" localFKIndex="CF4EEB0E-6E68-CEC5-DB86-775E1C4CD9E6" name="TBL_REACCIONES_TBL_TIPOS_REACIONES_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:15:49 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_REACIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7AC2D803-BE59-FB74-2513-80F0CC09342B</referredTableID>
+<keyObject>4CBA9B83-BEA9-0F4B-2A0F-1A3D34848CBC</keyObject>
+<referredKeyID>4CBA9B83-BEA9-0F4B-2A0F-1A3D34848CBC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_REACCION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

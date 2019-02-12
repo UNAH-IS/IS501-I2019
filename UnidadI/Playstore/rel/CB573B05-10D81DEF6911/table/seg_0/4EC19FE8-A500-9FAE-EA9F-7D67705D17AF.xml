@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4EC19FE8-A500-9FAE-EA9F-7D67705D17AF" name="TBL_REQUERIMIENTOS">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:29:04 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_REQUERIMIENTO" id="20FCFFC6-0894-B47E-088B-4002FD8D4B16">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:29:47 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_REQUERIMIENTO" id="977D56A5-50E4-DAF1-42A0-243E64DB0D4E">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:29:47 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F46CA8C-113B-289D-C727-615C81E4A90B" name="TBL_REQUERIMIENTOS_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:29:47 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20FCFFC6-0894-B47E-088B-4002FD8D4B16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

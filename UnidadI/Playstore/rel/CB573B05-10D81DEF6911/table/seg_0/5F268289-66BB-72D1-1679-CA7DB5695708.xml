@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F268289-66BB-72D1-1679-CA7DB5695708" name="TBL_REACCIONES">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:13:47 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="9C7F81F1-9293-D4DC-B06F-A54CFE49011E">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:15:35 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED7FB911-A6A3-DB7F-CFF1-5E1CDCF06EEA" referredColumn="9EFA2C54-35E7-25AC-C249-6BFF2977E9BB"/>
+</associations>
+</Column>
+<Column name="CODIGO_EVALUACION" id="D448F080-FEFD-7E7A-3ED0-13C5A964470A">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:15:40 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="995C87D9-8E50-DC34-B8AD-5070F113384C" referredColumn="F092366C-80A2-CD98-6659-ED87E592F052"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_REACCION" id="D6A5B88E-DD81-2C33-30BA-979FE32F927C">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:15:49 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB691ECB-F46F-A67D-C508-0894B94AD3DC" referredColumn="546440FE-C035-F377-D059-AFD8F47CABCA"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA" id="99D284B6-1700-0BA5-11E0-885EBEC80A15">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:15:28 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8665DA48-8FB0-E739-E929-C3E9DBDA192F" name="TBL_REACCIONES_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:18:59 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C7F81F1-9293-D4DC-B06F-A54CFE49011E"/>
+<colUsage columnID="D448F080-FEFD-7E7A-3ED0-13C5A964470A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA21356D-932D-BCF7-E559-83FE6E348AE5" name="TBL_REACCIONES_TBL_USUARIOS_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:15:35 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C7F81F1-9293-D4DC-B06F-A54CFE49011E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="733908DC-A457-A885-4B60-BA177F5F45FF" name="TBL_REACCIONES_TBL_COMENTARIOS_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:15:40 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D448F080-FEFD-7E7A-3ED0-13C5A964470A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF4EEB0E-6E68-CEC5-DB86-775E1C4CD9E6" name="TBL_REACCIONES_TBL_TIPOS_REACIONES_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:15:49 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6A5B88E-DD81-2C33-30BA-979FE32F927C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

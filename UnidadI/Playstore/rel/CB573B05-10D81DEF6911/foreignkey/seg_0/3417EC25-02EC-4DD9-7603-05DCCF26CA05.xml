@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3417EC25-02EC-4DD9-7603-05DCCF26CA05" containerWithKeyObject="CB1F8B21-DA44-AD77-4F52-86E811127BB1" localFKIndex="8D37E9B4-F673-35DF-76B5-1AD5D58203CD" name="PER_X_APLI_PER_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:51:54 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<referredTableLongName>TBL_PERMISOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>14771FC9-044D-8487-F8E7-BFF352876955</referredTableID>
+<keyObject>32E7048C-F264-9538-4485-5E7A0DFEC62D</keyObject>
+<referredKeyID>32E7048C-F264-9538-4485-5E7A0DFEC62D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_PERMISO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

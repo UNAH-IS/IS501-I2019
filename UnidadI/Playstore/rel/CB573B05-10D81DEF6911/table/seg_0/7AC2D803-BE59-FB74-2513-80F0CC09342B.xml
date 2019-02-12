@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AC2D803-BE59-FB74-2513-80F0CC09342B" name="TBL_TIPOS_REACIONES">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:12:46 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_REACCION" id="546440FE-C035-F377-D059-AFD8F47CABCA">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:13:43 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_REACCION" id="EDC403C3-8D68-F8BF-CAF1-77771D142662">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:13:43 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMAGEN" id="AF939922-5DC8-6DF1-8B42-56CFB18C423B">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:13:43 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CBA9B83-BEA9-0F4B-2A0F-1A3D34848CBC" name="TBL_TIPOS_REACIONES_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:13:43 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="546440FE-C035-F377-D059-AFD8F47CABCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

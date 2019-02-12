@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2157CC2-E8C3-1E35-7009-BC7E3D8FCF3E" name="TBL_DESCARGAS">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:19:35 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PRODUCTO" id="002AE7B9-1FFB-CAF0-4561-1BE5540EDD95">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:23:25 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD1BD960-EB74-D430-F9FC-2D678910EF13" referredColumn="1D4A2180-90B9-7C3A-8E85-55539215DA3F"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="0A84D8E6-28EF-1984-1448-1A9022C0B329">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:23:45 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5104AEBD-952D-4AD3-9C26-2B3BF984E065" referredColumn="9EFA2C54-35E7-25AC-C249-6BFF2977E9BB"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA_DESCARGA" id="73F0C657-EF34-8B44-ADAE-8555EA7B0EB3">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:24:16 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDE2C538-AF07-085E-0BCC-4C8950528DE8" name="DES_PRO_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:23:25 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="002AE7B9-1FFB-CAF0-4561-1BE5540EDD95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF86097F-B9C5-F451-B3C8-679B1B0A8F6E" name="DESC_USU_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:23:45 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A84D8E6-28EF-1984-1448-1A9022C0B329"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

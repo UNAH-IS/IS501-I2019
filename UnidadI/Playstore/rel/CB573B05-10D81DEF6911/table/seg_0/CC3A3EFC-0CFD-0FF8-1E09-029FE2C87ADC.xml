@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC3A3EFC-0CFD-0FF8-1E09-029FE2C87ADC" name="TBL_VENTAS">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:30:46 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_VENTA" id="06F89645-6329-7C1A-11D1-037CFC278AE5">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:34:10 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PRODUCTO" id="AC56E328-1AC2-C44D-ABB2-501ADDF6873B">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:40:10 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41E23E1A-E1D6-0640-B5AE-393946804831" referredColumn="1D4A2180-90B9-7C3A-8E85-55539215DA3F"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="87FA8A86-1941-447D-E292-CAA2DECEBB77">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:40:25 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8538584A-6799-291C-DDD4-90CF3C79B749" referredColumn="9EFA2C54-35E7-25AC-C249-6BFF2977E9BB"/>
+</associations>
+</Column>
+<Column name="CODIGO_METODO_PAGO" id="56A0A36A-C063-E366-9B1E-8F6B56F5A168">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:42:34 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F56E9883-2F2A-24F9-3ADC-CAF36AC61790" referredColumn="752A81D4-7719-D109-BEE2-9A673558F467"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA_VENTA" id="45346C26-C155-8741-BAC3-C807401A2F6C">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:34:10 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTO" id="8899CCC5-3EE0-6F9F-56FF-36EF1422BD1E">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:34:10 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMPUESTO" id="1F68967F-3C95-C5BC-219F-9101AAD61721">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:34:10 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCUENTO" id="564DA740-D990-112A-3EC4-24911E16FE88">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:34:10 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC9C9810-132C-40BE-44C9-E6606CCEF79D" name="TBL_VENTAS_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:34:10 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06F89645-6329-7C1A-11D1-037CFC278AE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81F363F1-6E1B-EAEF-F643-594AFD7A1488" name="VEN_PRO_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:40:10 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC56E328-1AC2-C44D-ABB2-501ADDF6873B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="528D4553-1B1E-53F3-22A8-10FDD88E1249" name="VEN_USU_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:40:25 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87FA8A86-1941-447D-E292-CAA2DECEBB77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1B65473-5FC1-51F8-17E1-CFE768DA49D0" name="VEN_MET_PAG_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:42:34 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56A0A36A-C063-E366-9B1E-8F6B56F5A168"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

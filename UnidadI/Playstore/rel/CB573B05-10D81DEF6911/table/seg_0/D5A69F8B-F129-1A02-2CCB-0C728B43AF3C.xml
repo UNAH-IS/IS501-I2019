@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5A69F8B-F129-1A02-2CCB-0C728B43AF3C" name="TBL_TIPOS_PRODUCTOS">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:44:21 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_PRODUCTO" id="3C0FF0A1-2EBC-053C-3845-1E4196F3C76A">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:44:50 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_PRODUCTO" id="863AAA6A-4122-BA7A-5D5D-BA9788EA85C7">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:44:50 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="483CB737-EC46-9A8F-F43C-545F69642F7B" name="TBL_TIPOS_PRODUCTOS_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:44:50 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C0FF0A1-2EBC-053C-3845-1E4196F3C76A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

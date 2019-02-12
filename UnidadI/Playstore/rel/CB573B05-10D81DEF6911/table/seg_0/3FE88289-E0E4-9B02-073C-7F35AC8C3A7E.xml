@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FE88289-E0E4-9B02-073C-7F35AC8C3A7E" name="TBL_COMENTARIOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FE88289-E0E4-9B02-073C-7F35AC8C3A7E" name="TBL_EVALUACIONES">
 <createdBy>marin</createdBy>
 <createdTime>2019-02-04 23:30:05 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_COMENTARIO" id="F092366C-80A2-CD98-6659-ED87E592F052">
+<Column name="CODIGO_EVALUACION" id="F092366C-80A2-CD98-6659-ED87E592F052">
 <createdBy>marin</createdBy>
 <createdTime>2019-02-04 23:32:23 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
@@ -65,6 +65,15 @@
 <associations>
 <colAssociation fkAssociation="EE3B40C7-D007-479F-A6CC-C8FE5A678435" referredColumn="1D4A2180-90B9-7C3A-8E85-55539215DA3F"/>
 </associations>
+</Column>
+<Column name="PUNTUACION" id="A8F4AF45-5547-C2F2-19ED-49AA4F167ACF">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:46:49 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

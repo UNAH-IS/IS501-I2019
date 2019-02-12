@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46186A18-3684-9F5C-8434-52DA91F5AD63" name="TBL_METODOS_PAGOS">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:42:06 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_METODO_PAGO" id="752A81D4-7719-D109-BEE2-9A673558F467">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:42:30 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_METODO_PAGO" id="D9F60EBA-06EF-DF69-FB38-8DEE9DB9F872">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:42:30 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E412818-DB18-440B-864F-2FB4E9B6E7F1" name="TBL_METODOS_PAGOS_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:42:30 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="752A81D4-7719-D109-BEE2-9A673558F467"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

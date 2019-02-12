@@ -32,6 +32,20 @@
 <colAssociation fkAssociation="F0A4C2C3-0B4D-4388-0581-B251763D07FE" referredColumn="68F8B487-6C60-017B-8A7A-9F71628BB79F"/>
 </associations>
 </Column>
+<Column name="CODIGO_TIPO_PRODUCTO" id="4F5ABA48-E543-D9A2-003B-36F5379563C1">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:44:54 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB43DB03-D549-0A16-BC55-768662BE1343" referredColumn="3C0FF0A1-2EBC-053C-3845-1E4196F3C76A"/>
+</associations>
+</Column>
 <Column name="NOMBRE" id="DE6E7015-CB62-38C7-992B-01A21940FD09">
 <createdBy>marin</createdBy>
 <createdTime>2019-02-07 23:13:39 UTC</createdTime>
@@ -95,6 +109,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ICONO" id="EAD9EF7D-33C2-ECE3-8DCF-962126069FCC">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:20:23 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="EE183799-0013-9788-1FC8-1CD4D26945C2" name="TBL_PRODUCTOS_PK">
@@ -116,6 +141,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="228C2B5B-4792-1BB3-F44D-1CD3EF293ECD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E18922A-27D4-8CD2-FC94-57E7B073EBBD" name="PROD_TIP_PRO_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:44:54 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F5ABA48-E543-D9A2-003B-36F5379563C1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

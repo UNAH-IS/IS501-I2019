@@ -1,16 +1,26 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDB4C40D-1102-1577-ECF4-D07B5BDF09D9" name="TBL_APLICACIONES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D94E60A-A4D5-7062-A9B6-C9350242C5D8" name="TBL_LISTA_DESEOS">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-01 23:38:27 UTC</createdTime>
+<createdTime>2019-02-12 23:46:16 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
-<ordsAlias>table_2</ordsAlias>
+<ordsAlias>table_33</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_PRODUCTO" id="7082C412-57B8-7AA2-4EAA-36A6BFEFEB9E">
+<Column name="CODIGO_ITEM" id="505256DA-919D-3674-002A-D2AFDA05EF10">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-07 23:29:45 UTC</createdTime>
+<createdTime>2019-02-12 23:46:55 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PRODUCTO" id="29570402-CB70-C120-320A-ACB782C73768">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:47:00 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,12 +29,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5B06AF74-E72B-3632-DCA7-0967B8812A5F" referredColumn="1D4A2180-90B9-7C3A-8E85-55539215DA3F"/>
+<colAssociation fkAssociation="F83F454E-C4C6-D4F4-D542-FD6AC75BEBEB" referredColumn="1D4A2180-90B9-7C3A-8E85-55539215DA3F"/>
 </associations>
 </Column>
-<Column name="CODIGO_DESARROLLADOR" id="7453C795-6602-A39F-697A-0E611209A1EE">
+<Column name="CODIGO_USUARIO" id="642C2AA4-8313-0681-E310-BB84C91CBE9B">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-01 23:46:02 UTC</createdTime>
+<createdTime>2019-02-12 23:47:37 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,70 +43,49 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F70E95B1-CBE2-77DC-DD36-9F3699F20A6B" referredColumn="D8274589-9569-3CC8-F2DA-6A4779CB3D9C"/>
+<colAssociation fkAssociation="95ACF8E8-3F3D-B536-A660-1DC767400F9C" referredColumn="9EFA2C54-35E7-25AC-C249-6BFF2977E9BB"/>
 </associations>
 </Column>
-<Column name="FECHA_ACTUALIZACION" id="35E8E0DA-D581-A257-7BB3-02A740B9050D">
+<Column name="FECHA_HORA" id="CD8EC3B6-3A1B-7B71-C474-3D04CF1BA8E5">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-01 23:41:23 UTC</createdTime>
-<ownerDesignName>Playstore</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="VERSION" id="1AF3380D-1CAB-9053-E46F-529DA52099DA">
-<createdBy>marin</createdBy>
-<createdTime>2019-02-04 23:17:23 UTC</createdTime>
+<createdTime>2019-02-12 23:46:55 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="REQUERIMIENTOS_ESPECIFICOS" id="53FB04C8-344C-4B30-8266-FB382EA04AC9">
-<createdBy>marin</createdBy>
-<createdTime>2019-02-11 23:39:21 UTC</createdTime>
-<ownerDesignName>Playstore</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DC8DD2DF-FAF5-28ED-B208-95EA2465AADA" name="TBL_APLICACIONES_PK">
+<ind_PK_UK id="A3F7B262-7D98-D1B2-4D9E-CD705DD51BE5" name="TBL_LISTA_DESEOS_PK">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-07 23:34:34 UTC</createdTime>
+<createdTime>2019-02-12 23:46:55 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7082C412-57B8-7AA2-4EAA-36A6BFEFEB9E"/>
+<colUsage columnID="505256DA-919D-3674-002A-D2AFDA05EF10"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="96D521E9-1753-A07A-0E97-DD1F89C53F80" name="APL_DES_FK">
+<ind_PK_UK id="5E176E9D-5101-8ADA-6128-DAF7EC350D78" name="LIST_DES_PRO_FK">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-01 23:46:02 UTC</createdTime>
+<createdTime>2019-02-12 23:47:00 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7453C795-6602-A39F-697A-0E611209A1EE"/>
+<colUsage columnID="29570402-CB70-C120-320A-ACB782C73768"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C1A27243-69F1-E880-C050-36CF3BD2D386" name="APL_PRO_FK">
+<ind_PK_UK id="677388E4-D745-83D0-76A3-FFECD9CC6F73" name="LIS_DES_USU_FK">
 <createdBy>marin</createdBy>
-<createdTime>2019-02-07 23:29:45 UTC</createdTime>
+<createdTime>2019-02-12 23:47:37 UTC</createdTime>
 <ownerDesignName>Playstore</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7082C412-57B8-7AA2-4EAA-36A6BFEFEB9E"/>
+<colUsage columnID="642C2AA4-8313-0681-E310-BB84C91CBE9B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

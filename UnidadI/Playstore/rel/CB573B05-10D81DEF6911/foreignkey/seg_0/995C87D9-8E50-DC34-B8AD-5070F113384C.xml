@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="995C87D9-8E50-DC34-B8AD-5070F113384C" containerWithKeyObject="5F268289-66BB-72D1-1679-CA7DB5695708" localFKIndex="733908DC-A457-A885-4B60-BA177F5F45FF" name="TBL_REACCIONES_TBL_COMENTARIOS_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-11 23:15:40 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<referredTableLongName>TBL_COMENTARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3FE88289-E0E4-9B02-073C-7F35AC8C3A7E</referredTableID>
+<keyObject>5D9F615A-A05B-CB82-5DA2-66146B2E37D0</keyObject>
+<referredKeyID>5D9F615A-A05B-CB82-5DA2-66146B2E37D0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_COMENTARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

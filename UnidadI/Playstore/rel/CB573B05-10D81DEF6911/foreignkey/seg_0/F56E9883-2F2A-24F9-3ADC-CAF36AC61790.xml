@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F56E9883-2F2A-24F9-3ADC-CAF36AC61790" containerWithKeyObject="CC3A3EFC-0CFD-0FF8-1E09-029FE2C87ADC" localFKIndex="B1B65473-5FC1-51F8-17E1-CFE768DA49D0" name="VEN_MET_PAG_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-12 23:42:34 UTC</createdTime>
+<ownerDesignName>Playstore</ownerDesignName>
+<referredTableLongName>TBL_METODOS_PAGOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>46186A18-3684-9F5C-8434-52DA91F5AD63</referredTableID>
+<keyObject>8E412818-DB18-440B-864F-2FB4E9B6E7F1</keyObject>
+<referredKeyID>8E412818-DB18-440B-864F-2FB4E9B6E7F1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_METODO_PAGO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
