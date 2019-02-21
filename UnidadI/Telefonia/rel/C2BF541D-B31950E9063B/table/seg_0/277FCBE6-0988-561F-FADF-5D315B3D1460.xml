@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="277FCBE6-0988-561F-FADF-5D315B3D1460" name="TBL_ORIGENES_SALDO">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:33:14 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ORIGEN" id="3EB0F733-8315-F5E3-B596-2DE4A93E8F2E">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:34:01 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ORIGEN" id="A09E4A81-A768-2F60-DA81-F133E6477F93">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:34:01 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32FE94B8-3BB7-EC80-E7F0-0D92AA05449F" name="TBL_ORIGENES_SALDO_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:34:07 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EB0F733-8315-F5E3-B596-2DE4A93E8F2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

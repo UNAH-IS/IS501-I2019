@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31D920EF-7FC1-6EE5-CE9A-75B6C5904564" name="TBL_LUGARES">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-14 23:45:51 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="22E1DDC5-97AC-00F1-34FD-B094A1046123">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-14 23:46:34 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_LUGAR" id="533A585B-5FEA-8B0A-257E-B2333FB835E3">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-14 23:46:34 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="CCE9C511-5694-EABB-BAB8-DF22D3EAF3FF">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-14 23:46:34 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="F00A66E7-61E7-E99B-A002-64E450AFEF6C">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-14 23:46:34 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="A2044613-ABAC-3277-EEAD-71CA4DC3870C">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-14 23:46:34 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="28E68977-ADAA-F806-6DDB-F3D2670105E0">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-14 23:47:13 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C9CCC5E-3FB7-6946-A6E4-D2732EA42FED" referredColumn="22E1DDC5-97AC-00F1-34FD-B094A1046123"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A225AAF8-0BEA-042A-CBF6-A861DF041981" name="TBL_LUGARES_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-14 23:46:55 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22E1DDC5-97AC-00F1-34FD-B094A1046123"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5226671E-307F-F093-AF5D-8789D3C54E94" name="TBL_LUGARES_TBL_LUGARES_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-14 23:47:13 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28E68977-ADAA-F806-6DDB-F3D2670105E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

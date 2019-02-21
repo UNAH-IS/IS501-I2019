@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F34FA85-B81B-88D6-B917-3FB87B8D4712" name="TBL_ACREDITACIONES_SALDO">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:31:49 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TRANSACCION" id="DB76A6FC-DB25-27FE-0DBD-8F749732132C">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:33:03 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LINEA_ORIGEN" id="85A3E145-5C3A-53C9-98F3-865CA4B51F94">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:37:38 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C732986-70A6-46D9-FCCA-3C1D6BA57EE1" referredColumn="E2F57B47-6F8F-A70F-1C11-8ABD1DCB56D9"/>
+</associations>
+</Column>
+<Column name="CODIGO_LINEA_DESTINO" id="470B0A79-73D5-86AA-C5E3-8DA9AEBFA90E">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:34:43 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA63658D-798A-9AC4-753E-462806A2E720" referredColumn="E2F57B47-6F8F-A70F-1C11-8ABD1DCB56D9"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA" id="D61EC109-6495-D61D-24E7-9771B4A3C393">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:33:03 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTO" id="06BD58CC-9AD8-4E35-3F24-19E214C80FE1">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:33:03 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ORIGEN" id="76636CEE-8CFF-B8C1-308F-889AD3E1D0D8">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:34:11 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFEC0207-486A-94F4-31CA-4869116B366F" referredColumn="3EB0F733-8315-F5E3-B596-2DE4A93E8F2E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CD7A04D-BEDC-6130-CC04-F687FBAA41B4" name="TBL_ACREDITACIONES_SALDO_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:33:03 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB76A6FC-DB25-27FE-0DBD-8F749732132C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F93998B6-C003-C183-4304-6441CFBF3704" name="TBL_ACREDITACIONES_SALDO_TBL_ORIGENES_SALDO_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:34:11 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76636CEE-8CFF-B8C1-308F-889AD3E1D0D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F00AFB95-1B48-6E01-2055-E4B6C2846584" name="TBL_ACREDITACIONES_SALDO_TBL_LINEAS_TELEFONICAS_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:34:43 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="470B0A79-73D5-86AA-C5E3-8DA9AEBFA90E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD65D595-F6B7-3C79-9D24-982C8A8DDC3E" name="TBL_ACREDITACIONES_SALDO_TBL_LINEAS_TELEFONICAS_FKv2">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:37:38 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85A3E145-5C3A-53C9-98F3-865CA4B51F94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

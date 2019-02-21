@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D27CF58F-118D-E0FD-247E-8F33F641A725" containerWithKeyObject="47290E63-42A5-20AD-1166-EF888469E622" localFKIndex="C3FB40EE-211E-C3DC-B6AF-1DC02ADCE2D0" name="LINLEFONICAS_TBL_SUSCRIPTORES_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:15:26 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<referredTableLongName>TBL_SUSCRIPTORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A79189FD-2726-BBDE-C334-49AA015DF4FB</referredTableID>
+<keyObject>707F3617-318C-77AA-60F0-EBBE2E4E44E6</keyObject>
+<referredKeyID>707F3617-318C-77AA-60F0-EBBE2E4E44E6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_SUSCRIPTOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

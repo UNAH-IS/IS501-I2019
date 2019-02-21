@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABAF7447-BB9A-4962-25CE-9580882A7611" name="TBL_HISTORICO_INTERNET">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:40:48 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HISTORICO" id="D4630117-E876-F52B-CB76-A70E7B964A2B">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:41:40 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C4F1395-815B-853E-A0E3-990E4982BBD2" referredColumn="24DE7401-8C1C-C83C-84E6-DE5E6C182C6E"/>
+</associations>
+</Column>
+<Column name="...." id="41302443-3C18-EFF8-37BC-837B0B075086">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:47:37 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40C15C59-CD4A-2087-4B31-D179A580406D" name="TBL_HISTORICO_INTERNET_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:42:21 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4630117-E876-F52B-CB76-A70E7B964A2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5618B04-88B3-7B1B-A132-3EAFA81E43FB" name="TBL_HISTORICO_INTERNET_TBL_HISTORICO_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:41:40 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4630117-E876-F52B-CB76-A70E7B964A2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

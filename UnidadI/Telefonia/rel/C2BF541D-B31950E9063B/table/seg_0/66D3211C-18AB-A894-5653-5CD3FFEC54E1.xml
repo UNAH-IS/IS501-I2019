@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66D3211C-18AB-A894-5653-5CD3FFEC54E1" name="TBL_UNIDADES_MEDIDA">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:28:40 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_UNIDAD_MEDIDA" id="C4CDD7B3-1CB9-6D94-1107-20767ABCDCDA">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:30:44 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIDAD_MEDIDA" id="B96695F7-0346-4D6F-4C17-F79F7569AD8D">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:30:44 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="70A1EA23-666C-471B-9B4D-DC87FD43CDC4">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:31:08 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F46727A2-B616-7FF6-1E76-7DD32B75F648" name="TBL_UNIDADES_MEDIDA_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:30:44 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4CDD7B3-1CB9-6D94-1107-20767ABCDCDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

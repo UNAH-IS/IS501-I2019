@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5AC00643-9964-F08D-8652-5BADD1288D77" containerWithKeyObject="A79189FD-2726-BBDE-C334-49AA015DF4FB" localFKIndex="E769CFE7-3DE3-1B82-965F-73A19FD95482" name="TBL_SUSCRIPTORES_TBL_GENEROS_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-14 23:48:45 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<referredTableLongName>TBL_GENEROS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E6446738-9E3C-D447-6104-59BF8CBED280</referredTableID>
+<keyObject>90A6FCCA-9BEE-B2EF-5F06-635855372F80</keyObject>
+<referredKeyID>90A6FCCA-9BEE-B2EF-5F06-635855372F80</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_GENERO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

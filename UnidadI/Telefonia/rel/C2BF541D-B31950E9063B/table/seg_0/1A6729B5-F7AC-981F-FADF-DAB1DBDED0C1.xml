@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A6729B5-F7AC-981F-FADF-DAB1DBDED0C1" name="TBL_PAQUETES">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:40:08 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PAQUETE" id="19B534E0-B650-99BF-B12A-E19DE002ECEE">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:40:39 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PAQUETE" id="AB63F14B-513A-5C9B-25FA-1206EF0B9F5C">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:40:39 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTO" id="2C793A4E-6AAA-22A0-40E2-947A2ABE5D35">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:40:39 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5580F8F4-BC67-995A-6DCD-0A7B6F00B2F3" name="TBL_PAQUETES_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:42:52 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19B534E0-B650-99BF-B12A-E19DE002ECEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

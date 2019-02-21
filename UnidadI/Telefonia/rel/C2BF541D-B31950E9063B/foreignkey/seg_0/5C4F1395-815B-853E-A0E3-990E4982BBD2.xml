@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5C4F1395-815B-853E-A0E3-990E4982BBD2" containerWithKeyObject="ABAF7447-BB9A-4962-25CE-9580882A7611" localFKIndex="F5618B04-88B3-7B1B-A132-3EAFA81E43FB" name="TBL_HISTORICO_INTERNET_TBL_HISTORICO_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:41:40 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<referredTableLongName>TBL_HISTORICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>58DCB08A-BB8A-769B-86C1-72AB629548E9</referredTableID>
+<keyObject>BD75514E-E036-50C0-D278-351DC863B746</keyObject>
+<referredKeyID>BD75514E-E036-50C0-D278-351DC863B746</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_HISTORICO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

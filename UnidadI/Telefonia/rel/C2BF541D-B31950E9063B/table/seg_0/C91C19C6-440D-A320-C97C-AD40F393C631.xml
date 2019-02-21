@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C91C19C6-440D-A320-C97C-AD40F393C631" name="TBL_HISTORICO_MENSAJES">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:40:38 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HISTORICO" id="1E724553-6428-B2EC-130E-08DA8B84704D">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:41:35 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5B4E05E-3D51-9C99-4796-3CFB24F354F8" referredColumn="24DE7401-8C1C-C83C-84E6-DE5E6C182C6E"/>
+</associations>
+</Column>
+<Column name="CODIGO_LINEA_DESTINO" id="5C2CF810-8777-C3A3-A00E-0A4A7D89999C">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:42:47 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82F9B90B-F31E-E374-5B4D-30300B155A3A" referredColumn="E2F57B47-6F8F-A70F-1C11-8ABD1DCB56D9"/>
+</associations>
+</Column>
+<Column name="CARACTERES_MENSAJE" id="A58DA27C-2014-FB86-FAB7-5188FF24D303">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:44:36 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F0DE0AC-2DBE-A5AA-5E30-B84D3DD2E9B3" name="TBL_HISTORICO_MENSAJES_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:42:14 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E724553-6428-B2EC-130E-08DA8B84704D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D318F246-C5AD-BE5B-71FF-005EAC17577D" name="TBL_HISTORICO_MENSAJES_TBL_HISTORICO_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:41:35 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E724553-6428-B2EC-130E-08DA8B84704D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C20CADB1-A3DD-46F7-5B67-14B151849FD3" name="TBL_HISTORICO_MENSAJES_TBL_LINEAS_TELEFONICAS_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:42:47 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C2CF810-8777-C3A3-A00E-0A4A7D89999C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

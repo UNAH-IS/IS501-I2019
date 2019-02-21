@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F31FD66-74D7-0F3F-EF44-7F8DB73C320B" name="TBL_COMPRAS_PAQUETES">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:10:34 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TRANSACCION" id="D79C2615-F1A5-16D7-E422-2119C3F879C3">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:11:39 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LINEA" id="9E68CC13-A52C-7991-8DC5-26763ED37370">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:16:35 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E056DA3-64F3-852A-7414-AB9803CDB4D1" referredColumn="E2F57B47-6F8F-A70F-1C11-8ABD1DCB56D9"/>
+</associations>
+</Column>
+<Column name="CODIGO_PAQUETE" id="A049878B-3841-D44F-B5A3-A52E1D8FDEDC">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:17:47 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B7B38F1-44D8-EB34-1299-F03F70A8FD35" referredColumn="19B534E0-B650-99BF-B12A-E19DE002ECEE"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA_COMPRA" id="59A4152B-CBEE-108A-210B-125A947710F8">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:11:39 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTO" id="EC367AA3-F9B5-79FE-BEA7-1B504969E8F2">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:11:39 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90C4EFD6-71F3-93FD-5452-A9709BE5274F" name="TBL_COMPRAS_PAQUETES_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:13:28 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D79C2615-F1A5-16D7-E422-2119C3F879C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCB6CC59-9037-9CA9-7D98-0164B77C1391" name="TBL_COMPRAS_PAQUETES_TBL_LINEAS_TELEFONICAS_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:16:35 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E68CC13-A52C-7991-8DC5-26763ED37370"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D4FA14B-5B47-D350-300D-CB31DCE8CCB6" name="TBL_COMPRAS_PAQUETES_TBL_PAQUETES_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-18 23:17:47 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A049878B-3841-D44F-B5A3-A52E1D8FDEDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

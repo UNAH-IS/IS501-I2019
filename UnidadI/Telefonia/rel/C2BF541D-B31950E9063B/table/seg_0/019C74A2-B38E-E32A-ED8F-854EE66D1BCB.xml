@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="019C74A2-B38E-E32A-ED8F-854EE66D1BCB" name="TBL_TIPOS_IDENTIFICACIONES">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-14 23:45:06 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_IDENTIFICACION" id="25C54472-A6BF-6329-2FF5-E8499FC272D1">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-14 23:45:28 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_IDENTIFICACION" id="97C52AFA-AC7F-862C-0F9D-D8C0963792EE">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-14 23:45:28 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65BDDE37-AA8F-4D89-AA10-4D166FD3296B" name="TBL_TIPOS_IDENTIFICACIONES_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-14 23:45:44 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25C54472-A6BF-6329-2FF5-E8499FC272D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

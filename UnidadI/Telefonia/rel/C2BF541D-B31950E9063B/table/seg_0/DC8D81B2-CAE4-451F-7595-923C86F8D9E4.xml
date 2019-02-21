@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC8D81B2-CAE4-451F-7595-923C86F8D9E4" name="TBL_DISPOSITIVOS">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:16:25 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_DISPOSITIVO" id="C7AD4359-F9E2-0AE0-BD4D-26F9A3C3BB2D">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:19:28 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_MARCA" id="48069BCE-1B35-42FE-48CE-701DF45D8C76">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:22:27 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57F61E8D-6277-D305-0D8D-691B1A5F4C86" referredColumn="8B9B8500-176F-D051-1FE0-AB1EE35C48E4"/>
+</associations>
+</Column>
+<Column name="NOMBRE_DISPOSITIVO" id="BFD90EF6-72F4-09A8-17B4-1C64F1AA4BB8">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:19:28 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANIO" id="E9321A9C-6F86-9088-343D-D91F7659E7C7">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:19:28 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E781C85F-15C9-77C9-43F2-2CB2D549FD9F" name="TBL_DISPOSITIVOS_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:19:28 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7AD4359-F9E2-0AE0-BD4D-26F9A3C3BB2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C67B6F35-49D9-8387-8DC6-D70D0007E9F1" name="TBL_DISPOSITIVOS_TBL_MARCAS_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:22:27 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48069BCE-1B35-42FE-48CE-701DF45D8C76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

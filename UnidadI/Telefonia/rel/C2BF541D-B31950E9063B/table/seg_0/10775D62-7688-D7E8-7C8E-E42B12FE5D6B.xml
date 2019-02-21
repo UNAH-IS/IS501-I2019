@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10775D62-7688-D7E8-7C8E-E42B12FE5D6B" name="TBL_MARCAS">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:16:39 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MARCA" id="8B9B8500-176F-D051-1FE0-AB1EE35C48E4">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:17:39 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_MARCA" id="6EDE6FF7-5D48-5033-E4F0-17F028A981F0">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:17:39 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGOTIPO" id="27743DDA-D4D3-6B04-35CF-40F391075564">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:17:39 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="22866BE2-2C7C-9781-2B54-3B2E347CD2DC" name="TBL_MARCAS_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:17:39 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B9B8500-176F-D051-1FE0-AB1EE35C48E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

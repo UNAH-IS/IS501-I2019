@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Telefonia" id="506E4E80-D54C-F5B2-B682-50C0FB9BD6AA" version="3.5">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-14 23:40:59 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>506E4E80-D54C-F5B2-B682-50C0FB9BD6AA</designId>
+</OSDM_Design>

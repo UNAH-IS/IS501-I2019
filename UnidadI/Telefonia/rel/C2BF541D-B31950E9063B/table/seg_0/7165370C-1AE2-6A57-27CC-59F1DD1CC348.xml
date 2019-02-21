@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7165370C-1AE2-6A57-27CC-59F1DD1CC348" name="TBL_CARGOS">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:18:23 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CARGO" id="D0694086-7163-316D-9993-678736BA0158">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:19:06 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CARGO" id="E8215527-8B25-74C7-0B0D-039B59534662">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:19:06 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="19E0F8DB-DF2E-7B13-D8DC-89CCF43D5915">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:19:06 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO_MINIMO" id="0C3F7D43-F80F-E3FD-2A70-49A94901ECF8">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:19:06 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO_MAXIMO" id="AFC443D5-20F2-E1ED-9829-4DD80FF0BE46">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:19:06 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41587F70-4231-7AC4-56EB-E3A8B7566330" name="TBL_CARGOS_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:19:06 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0694086-7163-316D-9993-678736BA0158"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

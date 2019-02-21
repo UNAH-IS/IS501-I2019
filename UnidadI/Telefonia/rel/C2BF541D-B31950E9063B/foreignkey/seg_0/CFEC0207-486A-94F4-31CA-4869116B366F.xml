@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CFEC0207-486A-94F4-31CA-4869116B366F" containerWithKeyObject="6F34FA85-B81B-88D6-B917-3FB87B8D4712" localFKIndex="F93998B6-C003-C183-4304-6441CFBF3704" name="TBL_ACREDITACIONES_SALDO_TBL_ORIGENES_SALDO_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:34:11 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<referredTableLongName>TBL_ORIGENES_SALDO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>277FCBE6-0988-561F-FADF-5D315B3D1460</referredTableID>
+<keyObject>32FE94B8-3BB7-EC80-E7F0-0D92AA05449F</keyObject>
+<referredKeyID>32FE94B8-3BB7-EC80-E7F0-0D92AA05449F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_ORIGEN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

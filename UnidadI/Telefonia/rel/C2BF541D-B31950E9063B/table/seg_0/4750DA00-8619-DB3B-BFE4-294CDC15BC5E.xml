@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4750DA00-8619-DB3B-BFE4-294CDC15BC5E" name="TBL_EMPLEADOS">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:14:22 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EMPLEADO" id="E4FFD493-15C4-8F2F-9806-2EFAB19F12C1">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:15:43 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_EMPLEADO_SUPERIOR" id="818E0A89-A403-A8B0-A647-D70ECA32F5F9">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:16:04 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52673A05-8B57-BA78-BDA5-02C60CEFC037" referredColumn="E4FFD493-15C4-8F2F-9806-2EFAB19F12C1"/>
+</associations>
+</Column>
+<Column name="CODIGO_GENERO" id="B376904C-C3BB-6488-A02F-91E2FA303F1B">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:16:38 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D905B152-8E01-1891-4089-B04C1AD9DFE2" referredColumn="163775FA-7329-A82D-2CB1-AC8DB6320A52"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_NACIMIENTO" id="D0C7BA77-CC57-03BD-D2D0-4D8615F089B9">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:17:25 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08924391-6D13-F797-D1FA-970C69D22F1F" referredColumn="22E1DDC5-97AC-00F1-34FD-B094A1046123"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_RESIDENCIA" id="D11BD098-8457-99C4-AA5F-954E2A047912">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:17:30 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCFC8033-38B3-05F1-B77F-EBB48D35B4BE" referredColumn="22E1DDC5-97AC-00F1-34FD-B094A1046123"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARGO" id="8D5CE30A-3C99-8865-828B-491133650FB2">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:20:46 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0969DDC0-6F07-D330-813B-53EF6D4C2584" referredColumn="D0694086-7163-316D-9993-678736BA0158"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="B4BF380F-F767-EB3D-BDE6-5CB79BFADF39">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:15:43 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="34F55A08-4932-8C0D-ABAF-FBFB978C5720">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:15:43 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="2A7F76E8-88F0-CA8A-DABF-6106818A4E71">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:15:43 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="D1351A16-0438-D3BB-E465-D31176720F90">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:15:43 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO" id="C9BD0C9F-20CE-A38F-F930-292E86440528">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:19:15 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D125FAB-274A-5062-B144-470281F2E143" name="TBL_EMPLEADOS_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:15:50 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4FFD493-15C4-8F2F-9806-2EFAB19F12C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2563B89-81B5-7315-0096-81054C5A9937" name="TBL_EMPLEADOS_TBL_EMPLEADOS_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:16:04 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="818E0A89-A403-A8B0-A647-D70ECA32F5F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8352F8DA-6896-A8D1-CC62-217633F7DC68" name="TBL_EMPLEADOS_TBL_GENEROS_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:16:38 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B376904C-C3BB-6488-A02F-91E2FA303F1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC68A9C5-D86C-D21C-D872-A089C3F3949B" name="TBL_EMPLEADOS_TBL_LUGARES_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:17:25 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0C7BA77-CC57-03BD-D2D0-4D8615F089B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="401FC4F3-7F00-D494-2135-5E1E15E18960" name="TBL_EMPLEADOS_TBL_LUGARES_FKv2">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:17:30 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D11BD098-8457-99C4-AA5F-954E2A047912"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D49C40B-809D-EB8A-7A0F-078EC01CC48E" name="TBL_EMPLEADOS_TBL_CARGOS_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-19 23:20:46 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D5CE30A-3C99-8865-828B-491133650FB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

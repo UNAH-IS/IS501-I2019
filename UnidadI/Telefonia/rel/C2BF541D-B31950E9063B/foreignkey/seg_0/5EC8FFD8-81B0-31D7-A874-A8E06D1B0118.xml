@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5EC8FFD8-81B0-31D7-A874-A8E06D1B0118" containerWithKeyObject="EA94F90B-3223-27A4-2FF4-3BCAD8A883BC" localFKIndex="69AA80D7-8FF6-435F-8179-45C6E92BE87A" name="TBL_SERVICIOS_TBL_UNIDADES_MEDIDA_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:30:52 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<referredTableLongName>TBL_UNIDADES_MEDIDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>66D3211C-18AB-A894-5653-5CD3FFEC54E1</referredTableID>
+<keyObject>F46727A2-B616-7FF6-1E76-7DD32B75F648</keyObject>
+<referredKeyID>F46727A2-B616-7FF6-1E76-7DD32B75F648</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_UNIDAD_MEDIDA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

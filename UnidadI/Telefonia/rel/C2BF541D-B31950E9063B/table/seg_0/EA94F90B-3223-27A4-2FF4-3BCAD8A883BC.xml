@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA94F90B-3223-27A4-2FF4-3BCAD8A883BC" name="TBL_SERVICIOS">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:25:29 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_SERVICIO" id="24B3FC95-2B93-7306-D1BD-200447D15628">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:28:35 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_SERVICIO" id="E764DBCF-A918-88FF-B273-F2E191EC0350">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:28:35 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_UNIDAD_MEDIDA" id="FF07E6BA-8FB3-24BA-3057-A232D081B879">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:30:52 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EC8FFD8-81B0-31D7-A874-A8E06D1B0118" referredColumn="C4CDD7B3-1CB9-6D94-1107-20767ABCDCDA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49A56C03-6777-2186-CD47-2BB50921A726" name="TBL_SERVICIOS_PK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:28:35 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24B3FC95-2B93-7306-D1BD-200447D15628"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69AA80D7-8FF6-435F-8179-45C6E92BE87A" name="TBL_SERVICIOS_TBL_UNIDADES_MEDIDA_FK">
+<createdBy>marin</createdBy>
+<createdTime>2019-02-15 23:30:52 UTC</createdTime>
+<ownerDesignName>Telefonia</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF07E6BA-8FB3-24BA-3057-A232D081B879"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
