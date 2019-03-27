@@ -1,4 +1,4 @@
-/*1. Consultar la cantidad de likes por publicación.*/
+/*1. Consultar la cantidad de likes por publicaciï¿½n.*/
 SELECT CODIGO_PUBLICACION, COUNT(*) AS CANTIDAD_LIKES
 FROM TBL_LIKE_PUBLICACIONES
 GROUP BY CODIGO_PUBLICACION;
@@ -15,7 +15,7 @@ GROUP BY A.CODIGO_PUBLICACION,
 
 
 /*
-2. Consultar la cantidad de likes por fotografía.*/
+2. Consultar la cantidad de likes por fotografï¿½a.*/
 SELECT CODIGO_FOTO, COUNT(*) AS CANTIDAD_FOTOS
 FROM TBL_LIKE_FOTOGRAFIAS
 GROUP BY CODIGO_FOTO;
@@ -48,27 +48,103 @@ ORDER BY A.CODIGO_USUARIO, NOMBRE_ESTATUS;
 SELECT *
 FROM TBL_ESTATUS_SOLICITUDES;
 
-/*5. Mostrar el usuario con mayor cantidad de amigos confirmados (El más cool).
-6. Mostrar el usuario con más solicitudes rechazadas (Forever alone).
-7. Mostrar la cantidad de usuarios registrados mensualmente.
-8. Mostrar la edad promedio de los usuarios por género.
-9. Con respecto al historial de accesos se necesita saber el crecimiento de los accesos del día 19 de
-agosto del 2015 con respecto al día anterior, la fórmula para calcular dicho crecimiento se
-muestra a continuación:
+/*5. Mostrar el usuario con mayor cantidad de amigos confirmados (El mï¿½s cool).
+*/
+--Cantidad mÃ¡xima de amigos confirmados
+SELECT MAX(CANTIDAD_AMIGOS_CONFIRMADOS)
+FROM (
+       SELECT CODIGO_USUARIO, COUNT(*) AS CANTIDAD_AMIGOS_CONFIRMADOS
+       FROM TBL_AMIGOS
+       WHERE CODIGO_ESTATUS = 1
+       GROUP BY CODIGO_USUARIO
+       ORDER BY 2 DESC
+     );
+
+
+--Solucion sin WITH
+SELECT A.CODIGO_USUARIO, B.NOMBRE_USUARIO, COUNT(*) AS CANTIDAD_AMIGOS_CONFIRMADOS
+FROM TBL_AMIGOS A
+INNER JOIN TBL_USUARIOS B
+ON (A.CODIGO_USUARIO = B.CODIGO_USUARIO)
+WHERE CODIGO_ESTATUS = 1
+GROUP BY A.CODIGO_USUARIO,B.NOMBRE_USUARIO
+HAVING COUNT(*) = (
+      SELECT MAX(CANTIDAD_AMIGOS_CONFIRMADOS)
+      FROM (
+         SELECT CODIGO_USUARIO, COUNT(*) AS CANTIDAD_AMIGOS_CONFIRMADOS
+         FROM TBL_AMIGOS
+         WHERE CODIGO_ESTATUS = 1
+         GROUP BY CODIGO_USUARIO
+         ORDER BY 2 DESC
+       )
+  )
+ORDER BY 2 DESC;
+
+
+
+
+--EQUIVALENTE A LA ANTERIOR PERO USANDO WITH
+WITH AMIGOS_CONFIRMADOS AS (
+  SELECT CODIGO_USUARIO, COUNT(*) AS CANTIDAD_AMIGOS_CONFIRMADOS
+  FROM TBL_AMIGOS
+  WHERE CODIGO_ESTATUS = 1
+  GROUP BY CODIGO_USUARIO
+)
+SELECT A.CODIGO_USUARIO,
+       B.NOMBRE_USUARIO,
+       A.CANTIDAD_AMIGOS_CONFIRMADOS
+FROM AMIGOS_CONFIRMADOS A
+INNER JOIN TBL_USUARIOS B
+ON (A.CODIGO_USUARIO = B.CODIGO_USUARIO)
+WHERE CANTIDAD_AMIGOS_CONFIRMADOS = (
+      SELECT MAX(CANTIDAD_AMIGOS_CONFIRMADOS)
+      FROM AMIGOS_CONFIRMADOS
+);
+
+
+
+/*
+6. Mostrar el usuario con mï¿½s solicitudes rechazadas (Forever alone).*/
+WITH AMIGOS_RECHAZADOS AS (
+  SELECT CODIGO_USUARIO, COUNT(*) AS CANTIDAD_AMIGOS_RECHAZADOS
+  FROM TBL_AMIGOS
+  WHERE CODIGO_ESTATUS = 2
+  GROUP BY CODIGO_USUARIO
+)
+SELECT A.CODIGO_USUARIO,
+       B.NOMBRE_USUARIO,
+       --CASE WHEN B.NOMBRE_USUARIO = 'Usuario 11' tHEN 'Rony' else b.NOMBRE_USUARIO end ,
+       A.CANTIDAD_AMIGOS_RECHAZADOS
+FROM AMIGOS_RECHAZADOS A
+INNER JOIN TBL_USUARIOS B
+ON (A.CODIGO_USUARIO = B.CODIGO_USUARIO)
+WHERE CANTIDAD_AMIGOS_RECHAZADOS = (
+      SELECT MAX(CANTIDAD_AMIGOS_RECHAZADOS)
+      FROM AMIGOS_RECHAZADOS
+);
+
+/*
+7. Mostrar la cantidad de usuarios registrados mensualmente.*/
+
+  /*
+8. Mostrar la edad promedio de los usuarios por gï¿½nero.
+9. Con respecto al historial de accesos se necesita saber el crecimiento de los accesos del dï¿½a 19 de
+agosto del 2015 con respecto al dï¿½a anterior, la fï¿½rmula para calcular dicho crecimiento se
+muestra a continuaciï¿½n:
 ((b-a)/a) * 100
 Donde:
-a = Cantidad de accesos del día anterior (18 de Agosto del 2015)
-b = Cantidad de accesos del día actual (19 de Agosto del 2015)
+a = Cantidad de accesos del dï¿½a anterior (18 de Agosto del 2015)
+b = Cantidad de accesos del dï¿½a actual (19 de Agosto del 2015)
 Mostrar el resultado como un porcentaje (Concatenar %)
 10. Crear una consulta que muestre lo siguiente:
-• Nombre del usuario.
-• País donde pertenece.
-• Cantidad de publicaciones que tiene.
-• Cantidad de amigos confirmados.
+ï¿½ Nombre del usuario.
+ï¿½ Paï¿½s donde pertenece.
+ï¿½ Cantidad de publicaciones que tiene.
+ï¿½ Cantidad de amigos confirmados.
 Cantidad de likes que ha dado.
-• Cantidad de fotos en las que ha sido etiquetado.
-• Cantidad de accesos en el historial.
+ï¿½ Cantidad de fotos en las que ha sido etiquetado.
+ï¿½ Cantidad de accesos en el historial.
 Tip: utilice subconsultas.
-11. De la consulta anterior cree una vista materializada y utilícela desde una tabla dinámica en Excel
-para mostrar una gráfica de línea que muestre la cantidad de amigos por cada usuario.
-Nota: Para cada consulta tiene que mostrarse la información legible para el usuario*/
+11. De la consulta anterior cree una vista materializada y utilï¿½cela desde una tabla dinï¿½mica en Excel
+para mostrar una grï¿½fica de lï¿½nea que muestre la cantidad de amigos por cada usuario.
+Nota: Para cada consulta tiene que mostrarse la informaciï¿½n legible para el usuario*/
