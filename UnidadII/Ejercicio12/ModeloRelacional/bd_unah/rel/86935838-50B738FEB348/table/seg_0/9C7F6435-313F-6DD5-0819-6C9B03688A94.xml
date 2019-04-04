@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C7F6435-313F-6DD5-0819-6C9B03688A94" name="TBL_TIPO_ASIGNATURA">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 15:53:22 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_ASIGNATURA" id="FE8AF435-5A22-0B44-3717-F25532FCADE3">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 15:54:12 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_ASIGNATURA" id="F111D08F-FCB8-A627-0965-5FFBDACC85C3">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 15:54:12 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A1D2237-9A19-422F-FB26-72D440C3DD4C" name="TBL_TIPO_ASIGNATURA_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 15:54:12 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE8AF435-5A22-0B44-3717-F25532FCADE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

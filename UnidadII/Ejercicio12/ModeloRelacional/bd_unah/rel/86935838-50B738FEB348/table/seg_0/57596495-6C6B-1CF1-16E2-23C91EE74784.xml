@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57596495-6C6B-1CF1-16E2-23C91EE74784" name="TBL_EMPLEADOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 15:48:30 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EMPLEADO" id="69AB24A7-196E-504B-C38D-F44B212A62AF">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:13:24 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14B3146A-3254-04F7-3991-4AEAD8163BBE" referredColumn="B1971819-4037-10B4-155D-406BC8BEFDD7"/>
+</associations>
+</Column>
+<Column name="NUMERO_EMPLEADO" id="ECEE4BCA-2388-6AA4-F3F3-67C4367480FF">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 16:29:04 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUELDO_BASE" id="24F2EE46-4755-B66F-3C73-0B285055C433">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 16:29:04 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_EMPLEADO" id="B70049F5-3463-B7BF-A890-B001FC7D8B91">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:14:51 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3B71AD2-9B32-69DE-41F5-0FBDCE60A797" referredColumn="00474F3C-451E-F073-3BB8-1940E10E791C"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARGO" id="3ACCAD3B-41B6-0526-FC22-840F68BD2228">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:14:58 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32621CFB-B6FD-64A2-F9CB-D372DB7AF212" referredColumn="A4648EE9-3297-B035-9557-DAAD6686B19A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="201F5A84-93DB-3E9D-04D6-FC76DB8AF6B5" name="TBL_EMPLEADOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:14:22 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69AB24A7-196E-504B-C38D-F44B212A62AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E68185FF-0A99-7332-CE3E-15FEB341C016" name="TBL_EMPLEADOS_TBL_PERSONAS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:13:24 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69AB24A7-196E-504B-C38D-F44B212A62AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BA1E714-F133-5958-1DA2-EECF2647A410" name="TBL_EMPLEADOS_TBL_TIPO_EMPLEADO_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:14:51 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B70049F5-3463-B7BF-A890-B001FC7D8B91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33A7E7A8-538B-63A4-F821-0F427EA51E75" name="TBL_EMPLEADOS_TBL_CARGOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:14:58 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ACCAD3B-41B6-0526-FC22-840F68BD2228"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

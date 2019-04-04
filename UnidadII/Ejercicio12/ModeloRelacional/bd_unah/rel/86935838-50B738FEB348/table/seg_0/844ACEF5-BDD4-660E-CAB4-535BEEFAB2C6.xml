@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="844ACEF5-BDD4-660E-CAB4-535BEEFAB2C6" name="TBL_TIPOS_EVALUACIONES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-10 19:23:37 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_40</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_EVALUACION" id="244BFFF9-E6EE-D24A-C844-B77E784FCC72">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-10 19:24:19 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_EVALUACION" id="5997B6CB-2FA9-A2E7-DEAB-DBEC9EB4552F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-10 19:24:19 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E33C260A-9F1C-B55B-152C-A50306DD6EB9" name="TBL_TIPOS_EVALUACIONES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-10 19:24:19 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="244BFFF9-E6EE-D24A-C844-B77E784FCC72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

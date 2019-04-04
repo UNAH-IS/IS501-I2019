@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEEA6166-001E-0986-EE93-4C0FD602FBB8" name="TBL_TIPO_IDENTIFICACION">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 16:38:02 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_IDENTIFICACION" id="DEB4AC1E-A12B-4BCA-AB82-B5E0BDEFA167">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 16:46:42 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_IDENTIFICACION" id="DF80E33C-76DD-FC34-FF7D-49AF3D05B914">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 16:46:42 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00357B85-C0C0-BCBF-5F63-8E154AAA99BE" name="TBL_TIPO_IDENTIFICACION_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 16:46:42 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEB4AC1E-A12B-4BCA-AB82-B5E0BDEFA167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

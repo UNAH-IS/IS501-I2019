@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A9029BB-B011-BD87-E5E3-B5662A766895" name="TBL_TITULOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:42:07 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TITULO" id="A6602910-25DC-02F7-E82C-FE370B99A4B0">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:42:48 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TITULO" id="151832BC-D84A-F702-A826-E2CB3FDC3AF0">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:42:48 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B21694D-3CF3-8832-E271-489A9CFB4D3A" name="TBL_TITULOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:42:48 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6602910-25DC-02F7-E82C-FE370B99A4B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

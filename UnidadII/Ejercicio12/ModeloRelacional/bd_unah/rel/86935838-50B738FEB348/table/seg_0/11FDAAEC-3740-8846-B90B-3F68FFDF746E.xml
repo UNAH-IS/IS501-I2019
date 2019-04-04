@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11FDAAEC-3740-8846-B90B-3F68FFDF746E" name="TBL_ESTADOS_MATRICULA">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:52:01 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_MATRICULA" id="B4340AF6-0604-0A8B-53BE-27FAAA4C89BE">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:53:11 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO" id="09C840AE-E0EF-4A59-9923-95F2F912425B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:53:11 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="2149FF09-4FE4-073A-B700-C02AFB382DC8">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:53:11 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1356553C-37A8-9B59-4AD0-9094C9E2717A" name="TBL_ESTADOS_MATRICULA_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:53:11 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4340AF6-0604-0A8B-53BE-27FAAA4C89BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

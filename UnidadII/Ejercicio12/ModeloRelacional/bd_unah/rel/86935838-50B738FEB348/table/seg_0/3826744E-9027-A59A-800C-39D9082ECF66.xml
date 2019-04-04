@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3826744E-9027-A59A-800C-39D9082ECF66" name="TBL_MAESTROS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:17:10 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MAESTRO" id="EDAD278C-A323-8306-C2CC-09F67048BBAA">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:20:18 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1925567-F6CF-489B-F6E0-2479B0329B66" referredColumn="69AB24A7-196E-504B-C38D-F44B212A62AF"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESPECIALIZACION" id="5A80CAD3-638B-0191-5358-36841DC27BEC">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:19:38 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0B23912-6E85-A69A-589A-F17205789901" referredColumn="06E7FA15-72E7-9D3B-87E1-E50CC536F635"/>
+</associations>
+</Column>
+<Column name="CODIGO_TITULARIDAD" id="DE291CE9-E0CB-1D80-A991-DDC74F495565">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:22:39 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6F2AAB6-6C6C-1B25-736F-BA755CCE87E6" referredColumn="072DB71A-C713-D531-E112-994420526AFB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B38656B7-7633-3DBF-2121-0A531F6C8642" name="TBL_MAESTROS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:20:35 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDAD278C-A323-8306-C2CC-09F67048BBAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CED5489B-B584-F798-70DC-9871D3A3C2E1" name="TBL_MAESTROS_TBL_AREA_ESPECIALIZACIONES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:19:38 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A80CAD3-638B-0191-5358-36841DC27BEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D35D296D-DAC2-1445-CB12-5CBF9E9895E6" name="TBL_MAESTROS_TBL_EMPLEADOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:20:18 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDAD278C-A323-8306-C2CC-09F67048BBAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E76576B6-A173-17DD-B551-E602FF4393B5" name="TBL_MAESTROS_TBL_TITULARIDAD_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:22:39 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE291CE9-E0CB-1D80-A991-DDC74F495565"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

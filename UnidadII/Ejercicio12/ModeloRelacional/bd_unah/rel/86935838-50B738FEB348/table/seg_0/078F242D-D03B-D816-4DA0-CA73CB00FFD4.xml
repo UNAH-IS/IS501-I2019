@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="078F242D-D03B-D816-4DA0-CA73CB00FFD4" name="TBL_FACULTADES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:29:38 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_FACULTAD" id="1FBEAA88-FC30-A69F-22EF-CCF98C66CAF5">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:32:44 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_FACULTAD" id="9BBFC9B5-2747-0F8A-EE10-CCEB043969AD">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:32:44 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="BA599E1B-DA41-B55C-B138-97FDFC3CF9E5">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:34:12 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62056141-CF4C-5A6E-E98F-F31E6FBADCB4" name="TBL_FACULTADES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-07 19:34:24 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FBEAA88-FC30-A69F-22EF-CCF98C66CAF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

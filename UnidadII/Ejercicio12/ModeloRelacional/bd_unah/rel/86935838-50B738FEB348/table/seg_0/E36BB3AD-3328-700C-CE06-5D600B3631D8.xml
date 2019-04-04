@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E36BB3AD-3328-700C-CE06-5D600B3631D8" name="TBL_TIPOS_AULAS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 15:46:19 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_AULA" id="48E5988D-1F36-EA22-5F5F-D7D5BBF75439">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 15:47:11 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_AULA" id="C8001C8E-A8E6-CB45-BF16-CBBDE1DE965B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 15:47:11 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="691E9D3D-A10A-AB72-0FD0-A54B51538E07">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 15:47:11 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E690B0D-11A7-7CB6-8A31-A7F1FF374EE4" name="TBL_TIPOS_AULAS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 15:47:11 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48E5988D-1F36-EA22-5F5F-D7D5BBF75439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

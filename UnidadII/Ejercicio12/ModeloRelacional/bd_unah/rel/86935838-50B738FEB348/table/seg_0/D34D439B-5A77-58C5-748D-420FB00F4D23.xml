@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D34D439B-5A77-58C5-748D-420FB00F4D23" name="TBL_UNIVERSIDADES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:45:56 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_UNIVERSIDAD" id="2217CA84-5875-25F0-2636-6FE174EFE10F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:46:59 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_UNIVERSIDAD" id="6DEBE086-1935-AD21-4ECF-E20EEC93C29E">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:46:59 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="F338D0AB-A8CF-DFD2-CA19-8BAA57B2ED59">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:46:59 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="DEFC58B1-38DE-0A91-830C-4CC675F775AD">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:46:59 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCBD7520-A9E9-D746-0D97-F27241AD04C8" name="TBL_UNIVERSIDADES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:46:59 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2217CA84-5875-25F0-2636-6FE174EFE10F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

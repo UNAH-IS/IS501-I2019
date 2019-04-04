@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6E5F6AC-67A5-86B0-FD8B-7C232C2887A7" name="TBL_GENEROS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-01-31 19:35:39 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_GENERO" id="14AD826C-DB04-1888-721C-D02AA2238D9B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-01-31 19:39:52 UTC</createdTime>
+<commentInRDBMS>IDENTIFICADOR UNICO PARA EL CAMPO GENERO</commentInRDBMS>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_GENERO" id="67F24A19-0964-1C5A-EDE7-0FD61C2A6563">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-01-31 19:39:52 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="67EACF2A-08F3-5FF9-6702-C61B62571C64">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-01-31 19:39:52 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D6B69A8-7806-021D-EC2A-2E2BFE910051" name="TBL_GENEROS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-01-31 19:39:52 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14AD826C-DB04-1888-721C-D02AA2238D9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

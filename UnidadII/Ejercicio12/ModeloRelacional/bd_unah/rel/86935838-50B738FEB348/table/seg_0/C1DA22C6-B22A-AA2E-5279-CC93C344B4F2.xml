@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1DA22C6-B22A-AA2E-5279-CC93C344B4F2" name="TBL_DEPARTAMENTOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 16:50:24 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_DEPARTAMENTO" id="293BA87A-4A10-53B5-556B-65B0371E0BD2">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 16:51:06 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_DEPARTAMENTO" id="E99E7E8C-FC1D-4147-C62D-FB4693E7986B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 16:51:06 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PAIS" id="FFA277F8-8463-8470-DBB6-4068B8323AC7">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 17:03:47 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66AFDA39-B299-5465-1DEA-94329F11BC7C" referredColumn="93D6A3DB-8610-742A-FF10-8B784E7138DF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8853DA63-1EB5-CFE3-0787-07F9EE1BD436" name="TBL_DEPARTAMENTOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 16:51:06 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="293BA87A-4A10-53B5-556B-65B0371E0BD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1298099C-8011-D5DE-1285-3BF0D87E7EC4" name="TBL_DEPARTAMENTOS_TBL_PAISES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 17:03:47 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFA277F8-8463-8470-DBB6-4068B8323AC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

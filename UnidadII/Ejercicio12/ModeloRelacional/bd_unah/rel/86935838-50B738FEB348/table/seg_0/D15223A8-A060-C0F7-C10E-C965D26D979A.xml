@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D15223A8-A060-C0F7-C10E-C965D26D979A" name="TBL_TIPOS_PERIODOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:29:20 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_PERIODO" id="94C05DC7-9CA6-DD19-ED9D-EEE63BBD8FA3">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:32:54 UTC</createdTime>
+<commentInRDBMS>Campo que identifica de forma unica un tipo de periodo</commentInRDBMS>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_PERIODO" id="B8FFE94F-2803-0F2A-18D2-6A762F81CFC2">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:32:54 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A0EF4F5C-50E2-B669-A53D-652A75E2D5C1" name="TBL_TIPOS_PERIODOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:32:54 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94C05DC7-9CA6-DD19-ED9D-EEE63BBD8FA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01748ED7-4713-C120-C198-A628E5A83F56" name="TBL_ESTADOS_CIVILES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 17:01:21 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_CIVIL" id="525709F3-A533-03EA-A707-F64D66BC6655">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 17:02:14 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO_CIVIL" id="5104380C-AC25-CE20-4E73-DF6C83FBCC0C">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 17:02:14 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84EB3DE3-3DE3-3BD8-439C-4831F2B61E68" name="TBL_ESTADOS_CIVILES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 17:02:14 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="525709F3-A533-03EA-A707-F64D66BC6655"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="092499D4-4CAC-A92B-895A-D545AEE60144" name="TBL_AULAS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 15:41:48 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_AULA" id="E53C0A28-88F1-2BD7-B0B3-66F444B2AC65">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 15:43:40 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_AULA" id="8B0E5E5F-6D58-83B5-451F-CF43AD7F54C7">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 15:43:40 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_AULA" id="4157C693-E19C-6327-8B1B-C8D5F1E0BF73">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:19:32 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F245804-3FC1-439D-9254-23B2683F9C2A" referredColumn="48E5988D-1F36-EA22-5F5F-D7D5BBF75439"/>
+</associations>
+</Column>
+<Column name="CODIGO_EDIFICIO" id="AD6C4EE8-CEDA-2736-D052-BDA4ADB40B1C">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:19:59 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA3EBF23-96BC-8061-26B6-232D9AF2EE67" referredColumn="8B0123A7-4165-ED45-0AF9-3FAA289E2473"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96BADB64-6895-4C62-CD53-E3CFAD4990BF" name="TBL_AULAS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 15:43:40 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E53C0A28-88F1-2BD7-B0B3-66F444B2AC65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C322881-C2F7-792D-7184-BE611959BD00" name="TBL_AULAS_TBL_TIPOS_AULAS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:19:32 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4157C693-E19C-6327-8B1B-C8D5F1E0BF73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A2B02D5-B1CB-9FEC-EE91-017E1F48B5F2" name="TBL_AULAS_TBL_EDIFICIOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:19:59 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD6C4EE8-CEDA-2736-D052-BDA4ADB40B1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

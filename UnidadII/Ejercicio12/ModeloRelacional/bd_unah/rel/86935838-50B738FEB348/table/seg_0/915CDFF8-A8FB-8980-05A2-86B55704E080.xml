@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="915CDFF8-A8FB-8980-05A2-86B55704E080" name="TBL_TITULARIDAD">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:20:44 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TITULARIDAD" id="072DB71A-C713-D531-E112-994420526AFB">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:22:29 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TITULARIDAD" id="4F3E9EFF-5564-9B27-BFB7-202DE47C7CED">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:22:29 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO_MINIMO" id="5791E88C-DD86-2CB6-8337-70548574C461">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:22:29 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO_MAXIMO" id="CDE68D93-3345-7CBA-5092-D0FC1698A0F4">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:22:29 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63C870B5-2EC7-B814-E2E2-DC2F7645F0F0" name="TBL_TITULARIDAD_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:22:29 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="072DB71A-C713-D531-E112-994420526AFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

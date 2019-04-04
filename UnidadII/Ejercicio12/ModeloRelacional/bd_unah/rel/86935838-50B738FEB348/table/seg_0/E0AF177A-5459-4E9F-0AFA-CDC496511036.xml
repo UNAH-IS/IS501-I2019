@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0AF177A-5459-4E9F-0AFA-CDC496511036" name="TBL_DETALLE_EVALUACION">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-10 19:22:15 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_39</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_HISTORIAL" id="3BB8E692-28B3-6A3C-55AF-DCA61DF8BAB4">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-10 19:23:17 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3ECA4DC4-1902-767A-878E-6014C8CBCB97" referredColumn="1653B8E6-2739-933E-4BA5-BD19BCC67B5A"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_EVALUACION" id="F2173055-B9EA-B285-E403-2571B64C6990">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-10 19:24:26 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC6B4D7B-19B4-8228-A5EB-758889AFDC08" referredColumn="244BFFF9-E6EE-D24A-C844-B77E784FCC72"/>
+</associations>
+</Column>
+<Column name="VALOR_NOTA" id="B56210B4-CEB3-C713-08AA-A818E7222F3E">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-10 19:23:09 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7FE325F8-B87A-4867-3DC3-867378B68E5C" name="TBL_DETALLE_EVALUACION_TBL_HISTORIAL_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-10 19:23:17 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BB8E692-28B3-6A3C-55AF-DCA61DF8BAB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61B92B80-FACA-35DF-FF73-7B67E9DCF884" name="TBL_DETALLE_EVALUACION_TBL_TIPOS_EVALUACIONES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-10 19:24:26 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2173055-B9EA-B285-E403-2571B64C6990"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

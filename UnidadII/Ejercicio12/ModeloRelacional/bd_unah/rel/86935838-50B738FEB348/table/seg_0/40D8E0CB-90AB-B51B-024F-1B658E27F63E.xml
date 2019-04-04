@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40D8E0CB-90AB-B51B-024F-1B658E27F63E" name="TBL_AREA_ESPECIALIZACIONES">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:18:28 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESPECIALIZACION" id="06E7FA15-72E7-9D3B-87E1-E50CC536F635">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:19:31 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="72712AA9-4D10-9D3E-6AFA-71D61515B6B3">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:19:31 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA25DAD7-F425-F77D-56A6-D2552A5307AC" name="TBL_AREA_ESPECIALIZACIONES_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:19:31 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06E7FA15-72E7-9D3B-87E1-E50CC536F635"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

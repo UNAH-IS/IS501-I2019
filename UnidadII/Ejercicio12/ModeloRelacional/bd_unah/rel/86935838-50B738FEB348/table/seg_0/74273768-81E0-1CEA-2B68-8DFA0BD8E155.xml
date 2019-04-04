@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74273768-81E0-1CEA-2B68-8DFA0BD8E155" name="TBL_ALUMNOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 19:44:36 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ALUMNO" id="33658C28-298F-0A03-E5AB-FBC9B1D11064">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 19:49:50 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27F620EC-89F2-368E-8D13-F432CCEFF35A" referredColumn="B1971819-4037-10B4-155D-406BC8BEFDD7"/>
+</associations>
+</Column>
+<Column name="NUMERO_CUENTA" id="1576B8C3-BB31-3578-657E-EBD22E849ABC">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 19:44:36 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMEDIO" id="A802C49B-2CC5-EE99-734C-D8AB11577C6B">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 19:44:36 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E3CF7A9-361E-CAEB-9A97-A3C6F4740D12" name="TBL_ALUMNOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 19:53:39 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33658C28-298F-0A03-E5AB-FBC9B1D11064"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40AAD79D-71D8-9B3C-CAFC-F6CDCC2008C0" name="TBL_ALUMNOS_TBL_PERSONAS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-03 19:49:50 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33658C28-298F-0A03-E5AB-FBC9B1D11064"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

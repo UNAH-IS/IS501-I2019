@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="004285AC-1199-FAC0-CB6D-4A136547A2DC" name="TBL_PERIODOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:26:17 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PERIODO" id="3D1D63DE-AAB2-A518-01F4-506172C88416">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:28:53 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PERIODO" id="7CFC5FE6-0CDE-070E-73BB-D7FCFD5C7BE2">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:28:53 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="12084974-7225-4716-2420-FAB73AE6AEEF">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:28:53 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="88F07005-18AB-0401-04BB-69082D8EBE38">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:28:53 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_PERIODO" id="7022C1E5-ABA0-DED5-9EE2-19DA822858DA">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:33:03 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC914842-973C-9218-3A6C-AEB210DA408C" referredColumn="94C05DC7-9CA6-DD19-ED9D-EEE63BBD8FA3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D5C6A8C-4301-A662-EBB0-132822F596B8" name="TBL_PERIODOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:29:10 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D1D63DE-AAB2-A518-01F4-506172C88416"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F95F4F2-2D78-6206-2EAD-68E845BA2D8D" name="TBL_PERIODOS_TBL_TIPOS_PERIODOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:33:03 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7022C1E5-ABA0-DED5-9EE2-19DA822858DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

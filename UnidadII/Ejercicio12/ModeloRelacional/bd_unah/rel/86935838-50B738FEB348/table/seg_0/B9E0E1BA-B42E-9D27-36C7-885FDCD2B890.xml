@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9E0E1BA-B42E-9D27-36C7-885FDCD2B890" name="TBL_TIPO_EMPLEADO">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 16:29:08 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_EMPLEADO" id="00474F3C-451E-F073-3BB8-1940E10E791C">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 16:29:54 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_EMPLEADO" id="3BE8010C-B8EE-2E88-7EC9-B2086F1BBB15">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 16:29:54 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6B5CB9C-42AA-EF0C-7914-9132D35C84AB" name="TBL_TIPO_EMPLEADO_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 16:29:54 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00474F3C-451E-F073-3BB8-1940E10E791C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

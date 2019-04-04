@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19B29D44-75E0-4E85-AEDB-328DA3C24823" name="TBL_MATRICULA">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:35:51 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FECHA_MATRICULA" id="9C2BF400-D8AA-0B08-FE24-74E97324645F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:37:17 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_SECCION" id="FDCD297F-ED0F-CD6F-6A35-1BBCE3BB7ADA">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:51:22 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F982B96D-5239-4148-59E2-6BB3FFA97BAE" referredColumn="DCC3641B-1FFD-5B2E-D117-B31958892A16"/>
+</associations>
+</Column>
+<Column name="CODIGO_ALUMNO" id="E0CFA106-4544-C87C-9D57-538615831A7E">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:51:49 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="675E7A36-EFAA-3E21-1DB6-3B15A8D77CBB" referredColumn="33658C28-298F-0A03-E5AB-FBC9B1D11064"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTADO_MATRICULA" id="778088CC-756D-8296-20ED-66B47CF05D45">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:53:20 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0DE5B30-1ACD-5DCF-7F6D-401F1CC0CFF7" referredColumn="B4340AF6-0604-0A8B-53BE-27FAAA4C89BE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C31251ED-656B-3C64-6471-4D2C093EB9BE" name="TBL_MATRICULA_TBL_SECCION_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:51:22 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDCD297F-ED0F-CD6F-6A35-1BBCE3BB7ADA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F2FC9A8-6B67-3422-AE93-BE3007AFC04B" name="TBL_MATRICULA_TBL_ALUMNOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:51:49 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0CFA106-4544-C87C-9D57-538615831A7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C8E30BD-954A-7842-8155-11E1214A47FB" name="TBL_MATRICULA_TBL_ESTADOS_MATRICULA_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-08 19:53:20 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="778088CC-756D-8296-20ED-66B47CF05D45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

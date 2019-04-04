@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A0795BE-49F0-DFB9-B59A-9221F705943C" name="TBL_CARGOS">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:11:35 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CARGO" id="A4648EE9-3297-B035-9557-DAAD6686B19A">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:12:32 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CARGO_SUPERIOR" id="497F7239-E86B-B2DA-450A-E273DB062026">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:37:45 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EE09A85-42D5-4C52-8CF7-85A31ACE080D" referredColumn="A4648EE9-3297-B035-9557-DAAD6686B19A"/>
+</associations>
+</Column>
+<Column name="NOMBRE_CARGO" id="2536432C-5FEE-98FF-1618-FAC23716E2D8">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:12:32 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24E64185-7936-627F-5975-6B7F83B60896" name="TBL_CARGOS_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:12:32 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4648EE9-3297-B035-9557-DAAD6686B19A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41F52DEB-6E64-8576-532B-65FC3DF59855" name="TBL_CARGOS_TBL_CARGOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:37:45 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="497F7239-E86B-B2DA-450A-E273DB062026"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

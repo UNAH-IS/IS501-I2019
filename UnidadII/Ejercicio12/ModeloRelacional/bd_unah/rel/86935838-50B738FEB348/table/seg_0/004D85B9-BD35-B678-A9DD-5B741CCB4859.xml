@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="004D85B9-BD35-B678-A9DD-5B741CCB4859" name="TBL_TITULOS_X_EMPLEADO">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:43:44 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TITULO" id="F2727DE4-1943-6FD1-981C-1EEBD59F5A65">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:44:33 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A362A1E7-45AD-55AE-4A50-3306192B2653" referredColumn="A6602910-25DC-02F7-E82C-FE370B99A4B0"/>
+</associations>
+</Column>
+<Column name="CODIGO_EMPLEADO" id="BC98C301-F911-1B08-22A2-2B90E1999143">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:44:46 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="979B7FC6-BB0E-9C4E-001C-568D0621BE5A" referredColumn="69AB24A7-196E-504B-C38D-F44B212A62AF"/>
+</associations>
+</Column>
+<Column name="CODIGO_UNIVERSIDAD" id="F7DBB0EC-C226-6AD2-8A92-357CFC8AD089">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:47:30 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4AA7E03-89C4-63DA-6069-80B48E725985" referredColumn="2217CA84-5875-25F0-2636-6FE174EFE10F"/>
+</associations>
+</Column>
+<Column name="FECHA" id="C478748E-798D-DFDC-BDD2-1B3A4FF2F5B3">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:48:41 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_REGISTRO" id="0B3EBAC5-FD6D-BDB3-E7FE-CD680187745F">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:48:41 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="871D2CB5-7B9B-1227-EFB3-F7F620121C3F" name="TBL_TITULOS_X_EMPLEADO_PK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:45:28 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2727DE4-1943-6FD1-981C-1EEBD59F5A65"/>
+<colUsage columnID="BC98C301-F911-1B08-22A2-2B90E1999143"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89B1278D-A91F-2A24-512A-AF579437A0DF" name="TBL_TITULOS_X_EMPLEADO_TBL_TITULOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:44:33 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2727DE4-1943-6FD1-981C-1EEBD59F5A65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBB93B86-8FB7-3625-E7F2-69F16229B748" name="TBL_TITULOS_X_EMPLEADO_TBL_EMPLEADOS_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:44:46 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC98C301-F911-1B08-22A2-2B90E1999143"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="500228FD-171F-DBD5-D63C-4DE0A3F59E79" name="TBL_TITULOS_X_EMPLEADO_TBL_UNIVERSIDADES_FK">
+<createdBy>ErickVladimir</createdBy>
+<createdTime>2017-02-06 19:47:30 UTC</createdTime>
+<ownerDesignName>bd_unah</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7DBB0EC-C226-6AD2-8A92-357CFC8AD089"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
