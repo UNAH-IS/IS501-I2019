@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C225D6AA-69D4-3EEC-B825-165126210FB7" name="TBL_USUARIOS_X_TARJETA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-06 17:23:01 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<schemaObject>EB82B015-0832-9A69-1C9F-913138F5629C</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="7CB98DD2-D956-7490-7C1D-50F548E72BB9">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-06 17:23:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CB43826-D324-CB1E-EC30-373200A60563" referredColumn="FAE56B30-8777-D3E7-81DC-4B08692912A7"/>
+</associations>
+</Column>
+<Column name="CODIGO_TARJETA" id="A780BC6F-26A5-441D-11AB-98699B612C01">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-06 17:24:18 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="933A9601-C3F3-C8B5-B763-A20365E535E4" referredColumn="7245D6E0-6B90-C770-D688-A3423A627A48"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5218403B-F48B-8277-535D-C7AC43A85739" name="TBL_USUARIOS_X_TARJETA_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-06 17:24:48 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A780BC6F-26A5-441D-11AB-98699B612C01"/>
+<colUsage columnID="7CB98DD2-D956-7490-7C1D-50F548E72BB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99CDEAFD-9442-B82E-26CA-A281E2779FB1" name="USU_X_TAR_USU_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-06 17:23:54 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CB98DD2-D956-7490-7C1D-50F548E72BB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D84296D6-4B4A-20A3-80B1-5B71EAB5EBD1" name="USU_X_TAR_TAR_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-06 17:24:18 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A780BC6F-26A5-441D-11AB-98699B612C01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="848D2427-8576-95FC-80E0-6758603B3011">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:19:16 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

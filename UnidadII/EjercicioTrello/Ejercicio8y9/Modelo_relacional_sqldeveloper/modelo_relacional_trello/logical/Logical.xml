@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7D832629-EBA9-F43C-F0A2-DFFA99354528" mainViewID="A14F61CD-B11D-E772-CA98-F71CD205E060">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:19:15 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45ADAD19-C9C9-3B1C-5C1B-2820367CCFEB" name="TBL_REDES_SOCIALES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:26:14 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<schemaObject>EB82B015-0832-9A69-1C9F-913138F5629C</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_RED_SOCIAL" id="7ACD3BCC-055C-A790-FDA1-708C113D6254">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:27:00 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_RED_SOCIAL" id="DFEBD701-813A-91E2-34FF-098D411899AF">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:27:00 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D9DE6B3-FDD9-FF4A-6241-DEEFB2DB7429" name="TBL_REDES_SOCIALES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:27:00 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ACD3BCC-055C-A790-FDA1-708C113D6254"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

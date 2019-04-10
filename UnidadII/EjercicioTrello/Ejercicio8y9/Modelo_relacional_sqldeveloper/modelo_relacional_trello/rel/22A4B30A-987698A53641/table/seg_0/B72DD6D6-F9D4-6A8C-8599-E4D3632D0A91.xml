@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B72DD6D6-F9D4-6A8C-8599-E4D3632D0A91" name="TBL_USUARIOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:20:01 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<schemaObject>EB82B015-0832-9A69-1C9F-913138F5629C</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="FAE56B30-8777-D3E7-81DC-4B08692912A7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:20:52 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="AC5C797F-0970-1419-6604-C61D4F334372">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:20:52 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="C22AE003-8246-3E76-61FE-63D4CDFF3F9C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:20:52 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="F4463D20-BC5A-95A6-0BB2-177563D72318">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:25:51 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENA" id="0FD5F987-07DD-A4F4-C12F-CD2A42E0ABCD">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:25:51 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_REFERENCIA_RED_SOCIAL" id="0849C5D4-89C5-05B1-395D-9CC09F449FC5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:25:51 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_RED_SOCIAL" id="D003BF9B-2CCF-13EB-C732-AF8E2520E743">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:27:37 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5CAD092-5565-B9E1-62DF-E73CAEBEE248" referredColumn="7ACD3BCC-055C-A790-FDA1-708C113D6254"/>
+</associations>
+</Column>
+<Column name="FOTOGRAFIA" id="2D9DEAA3-7722-2BD5-7FC7-041D08ACAEEC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:32:50 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PLAN" id="3840F115-7F2B-E531-5335-87947476D2D7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:42:03 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BBBF305-3F1F-E425-02EA-A016D496E7A2" referredColumn="E073FE2A-6940-9404-84B0-534653CB9421"/>
+</associations>
+</Column>
+<Column name="FECHA_INICIO_PLAN" id="AF232F14-F84D-7860-0947-EC96A0717561">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:44:42 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN_PLAN" id="561C3A78-E9AD-55A9-DFD5-84E76C06733A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:44:42 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62961554-7597-083D-3793-66AD9E26E8C4" name="TBL_USUARIOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:20:52 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAE56B30-8777-D3E7-81DC-4B08692912A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4120A7A1-B8CE-B8E7-5301-DC2FE9AC7278" name="USU_RED_SOC_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:27:37 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D003BF9B-2CCF-13EB-C732-AF8E2520E743"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7DF9F69-F7BA-F0ED-3BEC-EE9663D0B772" name="USU_PLA_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:42:03 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3840F115-7F2B-E531-5335-87947476D2D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

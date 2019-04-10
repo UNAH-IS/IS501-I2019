@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="F97447B5-5FE2-9496-480C-45E922AAF67F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:19:16 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

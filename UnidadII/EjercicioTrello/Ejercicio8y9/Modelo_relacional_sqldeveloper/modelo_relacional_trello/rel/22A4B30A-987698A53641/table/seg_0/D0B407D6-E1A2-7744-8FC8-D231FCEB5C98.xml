@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0B407D6-E1A2-7744-8FC8-D231FCEB5C98" name="TBL_PLANES">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:38:00 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<schemaObject>EB82B015-0832-9A69-1C9F-913138F5629C</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PLAN" id="E073FE2A-6940-9404-84B0-534653CB9421">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:40:38 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PLAN" id="56D45E77-47E0-7EB7-CD1D-6570D0D7E0B7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:40:38 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_PLAN" id="C91C90C1-5AE2-B711-DEC2-B085AE6C5207">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:40:38 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTO_PLAN" id="66A4E86D-4B15-6BEA-96B7-898378579D9E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:40:38 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERIODICIDAD" id="D8755529-80E5-B149-29CA-63D6E79386C4">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:40:38 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2540BF34-2BFE-79AB-0FE8-093D8F4E6859" name="TBL_PLANES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:40:38 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E073FE2A-6940-9404-84B0-534653CB9421"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

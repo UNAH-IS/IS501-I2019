@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="408D3EA2-9024-6D7E-FFF7-81601CF4C839" name="TBL_CHECKLISTS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-11-19 20:39:00 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<schemaObject>EB82B015-0832-9A69-1C9F-913138F5629C</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CHECKLIST" id="BD5D3F3A-567C-CE12-3B26-39E42B9ABA04">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-11-19 20:40:04 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="B3984AA1-B5CB-B339-8FAB-110A89DE08D1">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-11-19 20:40:18 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B59C8C80-2080-613A-EACB-19FF6D6D56F9" referredColumn="FAE56B30-8777-D3E7-81DC-4B08692912A7"/>
+</associations>
+</Column>
+<Column name="CODIGO_TARJETA" id="109F926A-2502-9C2F-75FC-61A06092076B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-11-19 20:40:39 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F6EB2C2-0D5B-764C-288B-E235B68AE2BB" referredColumn="7245D6E0-6B90-C770-D688-A3423A627A48"/>
+</associations>
+</Column>
+<Column name="TITULO_CHECKLIST" id="7488F8D0-DF62-E11A-993C-09E1EAFF940B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-11-19 20:40:04 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="81B61152-DE8E-7788-0C0E-EBA93D04C0D7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-11-19 20:40:04 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29F07362-F4AE-5B79-25C7-11540DFCCFAD" name="TBL_CHECKLISTS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-11-19 20:40:04 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD5D3F3A-567C-CE12-3B26-39E42B9ABA04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C2C003C-7D60-22C4-00B4-B1C7F9BED717" name="CHE_USU_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-11-19 20:40:18 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3984AA1-B5CB-B339-8FAB-110A89DE08D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3DDAEDF-ED2D-E3B1-FF9C-8149C556183B" name="CHE_TAR_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-11-19 20:40:39 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="109F926A-2502-9C2F-75FC-61A06092076B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

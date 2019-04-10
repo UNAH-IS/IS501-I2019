@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_relacional_trello" id="1C493DA6-709B-332D-5965-8CCC64AD5631" version="3.5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-02 17:19:15 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1C493DA6-709B-332D-5965-8CCC64AD5631</designId>
+</OSDM_Design>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FE8292A0-8360-96CB-1978-44FBC6503FB3" containerWithKeyObject="64B341F4-C69C-6EBD-E309-B1A17111DEB5" localFKIndex="541ADD7E-E043-0441-3E42-6390AEB65531" name="FAC_PAG_PL_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-11-19 20:35:40 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D0B407D6-E1A2-7744-8FC8-D231FCEB5C98</referredTableID>
+<keyObject>2540BF34-2BFE-79AB-0FE8-093D8F4E6859</keyObject>
+<referredKeyID>2540BF34-2BFE-79AB-0FE8-093D8F4E6859</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

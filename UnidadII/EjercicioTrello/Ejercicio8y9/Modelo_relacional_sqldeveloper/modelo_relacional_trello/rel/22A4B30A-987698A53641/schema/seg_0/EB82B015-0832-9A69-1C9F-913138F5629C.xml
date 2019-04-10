@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="TRELLO" directorySegmentName="seg_0" id="EB82B015-0832-9A69-1C9F-913138F5629C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-10-06 17:35:06 UTC</createdTime>
+<ownerDesignName>modelo_relacional_trello</ownerDesignName>
+</SchemaObject>
